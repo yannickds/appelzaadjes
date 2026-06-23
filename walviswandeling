@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>walviswandeling</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Hello, World!</h1>
+
+ <!-- Navigation Bar starts here -->
+{% include navbar.html %}
+  <!-- Navigation Bar ends here -->
+
+<img src="images/walvis-drone-3.jpeg" alt="walviswandeling Glenn Van Roey'">
+  <p>foto: Glenn Van Roey</p>
+ 
+</body>
+</html>
