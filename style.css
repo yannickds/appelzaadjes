@@ -1,0 +1,149 @@
+/* style.css - Dark Theme for GitHub */
+
+/* Reset & Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+  line-height: 1.6;
+  font-size: 16px;
+  min-height: 100vh;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #f0f0f0;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.5rem; }
+
+/* Paragraphs */
+p {
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+/* Links */
+a {
+  color: #61afef;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #98c379;
+  text-decoration: underline;
+}
+
+/* Code Blocks */
+code, pre {
+  font-family: 'Fira Code', 'Consolas', 'Monaco', monospace;
+  background-color: #2d2d2d;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+}
+
+pre {
+  padding: 1rem;
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Buttons */
+button, .btn {
+  background-color: #3b3b3b;
+  color: #e0e0e0;
+  padding: 0.75rem 1.5rem;
+  border: 2px solid #505050;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+button:hover, .btn:hover {
+  background-color: #505050;
+  border-color: #61afef;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+th, td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #404040;
+}
+
+th {
+  background-color: #2d2d2d;
+  font-weight: 600;
+}
+
+/* Navigation */
+nav {
+  background-color: #252525;
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+/* Footer */
+footer {
+  background-color: #252525;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 3rem;
+  color: #999;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  
+  .container {
+    padding: 1rem;
+  }
+  
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+}
