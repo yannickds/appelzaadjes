@@ -1,7 +1,7 @@
 ---
-layout: walviswandeling
-title: Walviswandeling
-permalink: /walviswandeling.html
+layout: walviswandeling1
+title: Walviswandeling2
+permalink: /walviswandeling3.html
 ---
 
 
