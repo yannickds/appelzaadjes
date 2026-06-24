@@ -1,7 +1,7 @@
 ---
 layout: walviswandeling
 title: Walviswandeling
-permalink: /walviswandeling/
+permalink: /walviswandeling.html
 ---
 
 
