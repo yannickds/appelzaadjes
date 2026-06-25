@@ -10,18 +10,21 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+{% include navbar.html %}
+
+<div class="container">
+
   <h1>Hello, World!</h1>
 
- <!-- Navigation Bar starts here -->
-{% include navbar.html %}
-  <!-- Navigation Bar ends here -->
+  <img src="images/walvis-drone-3.jpeg" alt="Walviswandeling">
+  <p class="caption">Foto: Glenn Van Roey</p>
 
-<img src="images/walvis-drone-3.jpeg" alt="walviswandeling Glenn Van Roey'">
-  <p>foto: Glenn Van Roey</p>
+  {{ content }}
 
-  {{content}}
+  <p>_layouts html versie</p>
 
-<p>_layouts html versie</p>
-  
+</div>
+
 </body>
 </html>
