@@ -1,5 +1,5 @@
 ---
-layout: walviswandeling1
+layout: walviswandeling
 title: Walviswandeling2
 permalink: /walviswandeling3.html
 ---
