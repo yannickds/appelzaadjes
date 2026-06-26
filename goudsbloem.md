@@ -1,4 +1,10 @@
 ---
+
+layout: default
+title: Goudsbloem
+permalink: /walviswandeling.html
+image: images/walvis-drone-3.jpeg
+caption: "Foto: Glenn Van Roey"
 ---
 
 <!DOCTYPE html>
