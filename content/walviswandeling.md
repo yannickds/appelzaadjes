@@ -30,6 +30,14 @@ Zaterdag 3 oktober 2026
 
 De walviswandeling gaat door op het strand van Bredene, ten noorden van strandpost 1. De startplaats bevindt zich op enkele steenworpen van beachbar <a href="https://bredene.be/nl/eten-drinken/beachclubs/twins-club-bredene" target="_blank" rel="noopener noreferrer">Twins Club</a>.
 
+## 📍 Praktische informatie
+
+| | |
+|:--:|---|
+| 🗓️ | **Zaterdag 3 oktober 2026** |
+| 📍 | **Strand van Bredene**<br>Ten noorden van strandpost 1.<br>De startplaats ligt op enkele steenworpen van beachbar <a href="https://bredene.be/nl/eten-drinken/beachclubs/twins-club-bredene" target="_blank" rel="noopener noreferrer">Twins Club</a>. |
+
+
 ## 🎒 Wat breng je mee?
 
 ✅ 🧥 Bescherming tegen **wind, regen, zon en zand**
@@ -40,35 +48,20 @@ De walviswandeling gaat door op het strand van Bredene, ten noorden van strandpo
 
 > [!WARNING]
 > **Breng geen producten mee die pinda's of aardnoten bevatten.**
-> Er is een deelnemer met een ernstige pinda-allergie.
+> Er is een deelnemer met een dodelijke pinda-allergie.
 
 🎧 **Optioneel:** koptelefoon of oortjes.
-
-Wat breng je mee?
-Bescherming tegen de vier elementen: wind, regen, zon en zand.
-Een schrift en schrijfgerief voor een moment van reflectie.
-Eten en drinken. Gelieve niets mee te brengen dat pinda's of aardnoten bevat, omwille van een ernstige pinda-allergie.
-Eventueel een koptelefoon of oortjes.
 
 ## 🗓️ Verloop van de dag
 
 | Tijd | Activiteit |
 |:----:|------------|
-| **10:00–11:30** | 🚧 Parcours en materiaal klaarzetten *(helpers welkom!)* |
+| **10:00–11:30** | 🚧 Materiaal klaarzetten *(helpers welkom!)* |
 | **11:30–11:45** | 👋 Aankomst deelnemers |
 | **11:45–12:00** | 🎤 Welkom & praktische uitleg |
 | **12:00–14:00** | 🐋 Walviswandeling op eigen ritme |
 | **14:00–14:30** | 💙 Gezamenlijk moment van bezinning |
-| **14:30–15:00** | 🌊 Optioneel: de zee neemt de walvis weer in zich op |
-
-Verloop van de dag
-Tijd	Activiteit
-10:00 – 11:30	Uitzetten van het parcours en het materiaal. Wie wil helpen is van harte welkom.
-11:30 – 11:45	Aankomst van de deelnemers.
-11:45 – 12:00	Welkom, woord van dank en praktische uitleg.
-12:00 – 14:00	De walviswandeling op je eigen ritme.
-14:00 – 14:30	Gezamenlijk moment van bezinning.
-14:30 – 15:00	Optioneel: samen toekijken hoe de zee de walvis langzaam weer in zich opneemt.
+| **14:30–15:00** | 🌊 De zee neemt de walvis weer in zich op |
 
 ## 💛 Hoe kan je het project steunen?
 
@@ -88,23 +81,15 @@ Je kan het project op verschillende manieren ondersteunen:
   - Inhoudelijk
   - Kunstzinnig
 
-Hoe kan je het project steunen?
+# 🐋 Wandel je mee?
 
-Je kan het project op verschillende manieren ondersteunen:
+### Op de grens tussen land en zee.
 
-met een vrije bijdrage (richtprijs: €30);
-door je ervaring op je eigen manier te documenteren;
-door feedback te geven;
-door mee te bouwen aan een volgende editie, praktisch, inhoudelijk of kunstzinnig.
-
-Inschrijven
-
-Wil je deelnemen? Schrijf je dan in via onderstaand formulier:
-
-<a href="https://framaforms.org/walviswandeling-zaterdag-3-oktober-2026-1762094640"
-   target="_blank"
-   rel="noopener noreferrer"
-   class="btn">
-    inschrijven
-</a>
-#savethewhales
+<p align="center">
+  <a href="https://framaforms.org/walviswandeling-zaterdag-3-oktober-2026-1762094640"
+     target="_blank"
+     rel="noopener noreferrer"
+     class="btn">
+    ✨ Schrijf je in
+  </a>
+</p>
