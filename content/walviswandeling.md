@@ -59,7 +59,7 @@ Wil je deelnemen? Schrijf je dan in via onderstaand formulier:
 <a href="https://framaforms.org/walviswandeling-zaterdag-3-oktober-2026-1762094640"
    target="_blank"
    rel="noopener noreferrer"
-   class="button">
+   class="btn">
     inschrijven
 </a>
 #savethewhales
