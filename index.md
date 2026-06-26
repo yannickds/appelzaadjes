@@ -2,7 +2,7 @@
 layout: default
 title: Appelzaadjes
 image: /images/appel.jpg
-caption: Foto: Jan Jansen
+caption: "Foto: Jan Jansen"
 ---
 
 # Appelzaadjes
