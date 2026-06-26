@@ -37,7 +37,7 @@ h3 { font-size: 1.5rem; }
 /* Paragraphs */
 p {
   margin-bottom: 1rem;
-  text-align: justify;
+  text-align: left;
 }
 
 /* Links */
