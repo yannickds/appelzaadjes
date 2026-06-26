@@ -1,7 +1,7 @@
 ---
 layout: default
 title: over
-permalink: /walviswandeling.html
-image: images/walvis-drone-3.jpeg
+permalink:
+image:
 caption: "Foto: Glenn Van Roey"
 ---
