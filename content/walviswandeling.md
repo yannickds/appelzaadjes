@@ -3,6 +3,8 @@
 layout: walviswandeling
 title: Walviswandeling2
 permalink: /walviswandeling.html
+image: /images/appel.jpg
+caption: Foto: Glenn Van Roey
 ---
 
 # Walviswandeling
