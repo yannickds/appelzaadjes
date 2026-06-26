@@ -1,6 +1,6 @@
 ---
 
-layout: walviswandeling
+layout: default
 title: Walviswandeling2
 permalink: /walviswandeling.html
 image: images/walvis-drone-3.jpeg
