@@ -23,6 +23,15 @@ body {
   padding: 2rem 1.5rem;
 }
 
+/* Caption */
+.caption {
+    font-size: 0.9rem;
+    color: #999;
+    text-align: center;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+}
+
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
