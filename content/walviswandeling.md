@@ -19,14 +19,14 @@ Wanneer we klimaat benaderen als een probleem, kent het ook een oplossing. Volge
 
 Het is onzeker of walvissen de huidige massa-extinctie zullen overleven. Als het hen gegund is, komen ze misschien ooit weer aan land, <a href="https://dark-mountain.net/will-the-whales-inherit-the-earth/" target="_blank" rel="noopener noreferrer">evoluerend tot een nieuwe intelligente soort</a> die de mensheid moreel ver overstijgt. Om deze potentiële toekomst open te houden, is het nodig dat het menselijk collectief haar traject radicaal omgooit.
 
-Ben je benieuwd geworden en wil je zelf deel uitmaken van deze tijdelijke terugkeer van een walvis naar zee? Hieronder vind je alle praktische informatie.
+Ben je benieuwd en ben je er gaar bij? Hieronder vind je alle praktische informatie.
 
-Praktisch
-Wanneer?
+# Praktisch
+## Wanneer?
 
 Zaterdag 3 oktober 2026
 
-Waar?
+## Waar?
 
 De walviswandeling gaat door op het strand van Bredene, ten noorden van strandpost 1. De startplaats bevindt zich op enkele steenworpen van beachbar <a href="https://bredene.be/nl/eten-drinken/beachclubs/twins-club-bredene" target="_blank" rel="noopener noreferrer">Twins Club</a>.
 
@@ -51,10 +51,15 @@ met een vrije bijdrage (richtprijs: €30);
 door je ervaring op je eigen manier te documenteren;
 door feedback te geven;
 door mee te bouwen aan een volgende editie, praktisch, inhoudelijk of kunstzinnig.
+
 Inschrijven
 
 Wil je deelnemen? Schrijf je dan in via onderstaand formulier:
 
-https://framaforms.org/walviswandeling-zaterdag-3-oktober-2026-1762094640
-
+<a href="https://framaforms.org/walviswandeling-zaterdag-3-oktober-2026-1762094640"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="button">
+    inschrijven
+</a>
 #savethewhales
