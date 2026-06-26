@@ -2,6 +2,7 @@
 layout: default
 title: Appelzaadjes
 image: /images/appel.jpg
+permalink: 
 caption: "Foto: Jan Jansen"
 ---
 
