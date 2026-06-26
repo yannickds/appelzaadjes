@@ -3,6 +3,8 @@
 layout: walviswandeling
 title: Walviswandeling2
 permalink: /walviswandeling.html
+image: images/walvis-drone-3.jpeg
+caption: "Foto: Glenn Van Roey"
 ---
 
 # Walviswandeling

@@ -6,7 +6,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>walviswandeling</title>
+  <title>{{ page.title }}</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,8 +17,14 @@
 
   <h1>Hello, World!</h1>
 
-  <img src="images/walvis-drone-3.jpeg" alt="Walviswandeling">
-  <p class="caption">Foto: Glenn Van Roey</p>
+  {% if page.image %}
+<img src="{{ page.image }}" alt="{{ page.title }}">
+{% endif %}
+
+{% if page.caption %}
+<p class="caption">{{ page.caption }}</p>
+{% endif %}
+ 
 
   {{ content }}
 
