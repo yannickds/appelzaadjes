@@ -21,14 +21,6 @@ Het is onzeker of walvissen de huidige massa-extinctie zullen overleven. Als het
 
 Ben je benieuwd en ben je er gaar bij? Hieronder vind je alle praktische informatie.
 
-# Praktisch
-## Wanneer?
-
-Zaterdag 3 oktober 2026
-
-## Waar?
-
-De walviswandeling gaat door op het strand van Bredene, ten noorden van strandpost 1. De startplaats bevindt zich op enkele steenworpen van beachbar <a href="https://bredene.be/nl/eten-drinken/beachclubs/twins-club-bredene" target="_blank" rel="noopener noreferrer">Twins Club</a>.
 
 ## 📍 Praktische informatie
 
