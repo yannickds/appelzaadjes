@@ -19,4 +19,42 @@ Wanneer we klimaat benaderen als een probleem, kent het ook een oplossing. Volge
 
 Het is onzeker of walvissen de huidige massa-extinctie zullen overleven. Als het hen gegund is, komen ze misschien ooit weer aan land, <a href="https://dark-mountain.net/will-the-whales-inherit-the-earth/" target="_blank" rel="noopener noreferrer">evoluerend tot een nieuwe intelligente soort</a> die de mensheid moreel ver overstijgt. Om deze potentiële toekomst open te houden, is het nodig dat het menselijk collectief haar traject radicaal omgooit.
 
+Ben je benieuwd geworden en wil je zelf deel uitmaken van deze tijdelijke terugkeer van een walvis naar zee? Hieronder vind je alle praktische informatie.
+
+Praktisch
+Wanneer?
+
+Zaterdag 3 oktober 2026
+
+Waar?
+
+De walviswandeling gaat door op het strand van Bredene, ten noorden van strandpost 1. De startplaats bevindt zich op enkele steenworpen van beachbar <a href="https://bredene.be/nl/eten-drinken/beachclubs/twins-club-bredene" target="_blank" rel="noopener noreferrer">Twins Club</a>.
+
+Wat breng je mee?
+Bescherming tegen de vier elementen: wind, regen, zon en zand.
+Een schrift en schrijfgerief voor een moment van reflectie.
+Eten en drinken. Gelieve niets mee te brengen dat pinda's of aardnoten bevat, omwille van een ernstige pinda-allergie.
+Eventueel een koptelefoon of oortjes.
+Verloop van de dag
+Tijd	Activiteit
+10:00 – 11:30	Uitzetten van het parcours en het materiaal. Wie wil helpen is van harte welkom.
+11:30 – 11:45	Aankomst van de deelnemers.
+11:45 – 12:00	Welkom, woord van dank en praktische uitleg.
+12:00 – 14:00	De walviswandeling op je eigen ritme.
+14:00 – 14:30	Gezamenlijk moment van bezinning.
+14:30 – 15:00	Optioneel: samen toekijken hoe de zee de walvis langzaam weer in zich opneemt.
+Hoe kan je het project steunen?
+
+Je kan het project op verschillende manieren ondersteunen:
+
+met een vrije bijdrage (richtprijs: €30);
+door je ervaring op je eigen manier te documenteren;
+door feedback te geven;
+door mee te bouwen aan een volgende editie, praktisch, inhoudelijk of kunstzinnig.
+Inschrijven
+
+Wil je deelnemen? Schrijf je dan in via onderstaand formulier:
+
+https://framaforms.org/walviswandeling-zaterdag-3-oktober-2026-1762094640
+
 #savethewhales
