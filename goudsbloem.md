@@ -2,26 +2,7 @@
 
 layout: default
 title: Goudsbloem
-permalink: /walviswandeling.html
-image: images/walvis-drone-3.jpeg
-caption: "Foto: Glenn Van Roey"
+
 ---
 
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>goudsbloem</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <h1>Hello, World!</h1>
-
- <!-- Navigation Bar starts here -->
-{% include navbar.html %}
-  <!-- Navigation Bar ends here -->
-  test
-  <p>Appelzaadjes zijn giftig alsook een bron van leven.</p>
-</body>
-</html>
+tekst over goudsbloem komt hier
