@@ -30,11 +30,37 @@ Zaterdag 3 oktober 2026
 
 De walviswandeling gaat door op het strand van Bredene, ten noorden van strandpost 1. De startplaats bevindt zich op enkele steenworpen van beachbar <a href="https://bredene.be/nl/eten-drinken/beachclubs/twins-club-bredene" target="_blank" rel="noopener noreferrer">Twins Club</a>.
 
+## 🎒 Wat breng je mee?
+
+✅ 🧥 Bescherming tegen **wind, regen, zon en zand**
+
+✅ 📓 Een **schrift en schrijfgerief** voor een moment van reflectie
+
+✅ 🥪 Eten en drinken
+
+> [!WARNING]
+> **Breng geen producten mee die pinda's of aardnoten bevatten.**
+> Er is een deelnemer met een ernstige pinda-allergie.
+
+🎧 **Optioneel:** koptelefoon of oortjes.
+
 Wat breng je mee?
 Bescherming tegen de vier elementen: wind, regen, zon en zand.
 Een schrift en schrijfgerief voor een moment van reflectie.
 Eten en drinken. Gelieve niets mee te brengen dat pinda's of aardnoten bevat, omwille van een ernstige pinda-allergie.
 Eventueel een koptelefoon of oortjes.
+
+## 🗓️ Verloop van de dag
+
+| Tijd | Activiteit |
+|:----:|------------|
+| **10:00–11:30** | 🚧 Parcours en materiaal klaarzetten *(helpers welkom!)* |
+| **11:30–11:45** | 👋 Aankomst deelnemers |
+| **11:45–12:00** | 🎤 Welkom & praktische uitleg |
+| **12:00–14:00** | 🐋 Walviswandeling op eigen ritme |
+| **14:00–14:30** | 💙 Gezamenlijk moment van bezinning |
+| **14:30–15:00** | 🌊 Optioneel: de zee neemt de walvis weer in zich op |
+
 Verloop van de dag
 Tijd	Activiteit
 10:00 – 11:30	Uitzetten van het parcours en het materiaal. Wie wil helpen is van harte welkom.
@@ -43,6 +69,25 @@ Tijd	Activiteit
 12:00 – 14:00	De walviswandeling op je eigen ritme.
 14:00 – 14:30	Gezamenlijk moment van bezinning.
 14:30 – 15:00	Optioneel: samen toekijken hoe de zee de walvis langzaam weer in zich opneemt.
+
+## 💛 Hoe kan je het project steunen?
+
+Je kan het project op verschillende manieren ondersteunen:
+
+- 💶 **Vrije bijdrage**
+  - Richtprijs: **€30**
+
+- 📸 **Deel je ervaring**
+  - Documenteer de wandeling op jouw eigen manier (tekst, foto's, tekeningen, audio...)
+
+- 💬 **Geef feedback**
+  - Jouw ideeën helpen het project groeien.
+
+- 🛠️ **Bouw mee aan een volgende editie**
+  - Praktisch
+  - Inhoudelijk
+  - Kunstzinnig
+
 Hoe kan je het project steunen?
 
 Je kan het project op verschillende manieren ondersteunen:
