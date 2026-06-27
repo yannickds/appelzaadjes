@@ -1,10 +1,11 @@
 ---
 layout: default
 title: molshoop
+caption: hoooop
 ---
 
   <p>Bijna alle <a href="https://www.stockholmresilience.org/research/planetary-boundaries.html" target="_blank" rel="noopener noreferrer">planetaire grenzen</a> zijn overschreden.
-Maar geen nood, zolang er mollen zijn, is er hoop. Toch?</p>
+Maar geen nood, er is hoop. Toch?</p>
   
 <div style="max-width: 640px; margin: 0 auto;">
 
@@ -22,6 +23,9 @@ Maar geen nood, zolang er mollen zijn, is er hoop. Toch?</p>
     <source src="./videos/molshoop1-3s.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
+  {% if page.caption %}
+<p class="caption">{{ page.caption }}</p>
+{% endif %}
   <p>hoop</p>
 
   <video
