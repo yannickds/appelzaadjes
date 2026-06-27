@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Appelzaadjes
+title: 
 image: /images/appel.jpg
 caption:
 ---
@@ -31,7 +31,7 @@ Geïnspireerd door Vandana Shiva, Charles Eisenstein en Johnny Appleseed. Uit be
 
 > "Maar als bomen hun voorraadschuren delen, dan moet iedere rode druppel bovendien wel drijven op een zee van groen."
 >
-> — Richard Powers, *Tot in de hemel*
+> — Richard Powers, *Tot in de hemel p.179*
 
 ### Zaad als eenheid van het leven. Niet geld.
 
