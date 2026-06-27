@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 
-image: /images/appel.jpg
+title:
+image:
 caption:
 ---
 
