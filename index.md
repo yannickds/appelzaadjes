@@ -38,4 +38,3 @@ Geïnspireerd door Vandana Shiva, Charles Eisenstein en Johnny Appleseed. Uit be
 Waarom nog?
 
 Wanneer de gevolgen van overshoot zich verder ontvouwen en winkelrekken teleurstellen, zullen er miljoenen fruitbomen, notenbomen, tamme kastanjes en moestuinen nodig zijn om onze buiken te vullen. Appelzaadjes zullen hun glorie herwinnen en opnieuw een bron van rijkdom worden.
-```
