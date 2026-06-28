@@ -2,84 +2,51 @@
 layout: default
 title: molshoop
 caption: hoooop
+
+text1: >
+  Bijna alle [planetaire grenzen](https://www.stockholmresilience.org/research/planetary-boundaries.html)
+  zijn overschreden. Maar geen nood, er is hoop. Toch?
+
+caption1: hoop
+caption2: meer hoop
+caption3: nog meer hoop
+caption4: en nog meer hoop
+
+text2: >
+  In hoeverre is hoop een afleiding van volledig erkennen van de ernst?
+  Het donker kan inspireren om onzekerheid te omarmen, epistemische nederigheid toe te laten en het terrein van rouw te verkennen.
+  De mol nodigt daartoe uit in haar donkere krochten.
+  De paden zijn alvast gemaakt.
 ---
 
-  <p>Bijna alle <a href="https://www.stockholmresilience.org/research/planetary-boundaries.html" target="_blank" rel="noopener noreferrer">planetaire grenzen</a> zijn overschreden.
-Maar geen nood, er is hoop. Toch?</p>
-  
+{{ page.text1 | markdownify }}
+
 <div style="max-width: 640px; margin: 0 auto;">
 
-  <video
-    controls
-    style="
-      max-width: 100%;
-      max-height: 100vh;
-      width: auto;
-      height: auto;
-      display: block;
-      margin-bottom: 1rem;
-    "
-  >
+  <video controls>
     <source src="./videos/molshoop1-3s.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-  {% if page.caption %}
-<p class="caption">{{ page.caption }}</p>
-{% endif %}
-  <p>hoop</p>
+  <p class="caption">{{ page.caption1 }}</p>
 
-  <video
-    controls
-    style="
-      max-width: 100%;
-      max-height: 100vh;
-      width: auto;
-      height: auto;
-      display: block;
-      margin-bottom: 1rem;
-    "
-  >
+  <video controls>
     <source src="./videos/molshoop2-10s.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-  <p>meer hoop</p>
+  <p class="caption">{{ page.caption2 }}</p>
 
-  <video
-    controls
-    style="
-      max-width: 100%;
-      max-height: 100vh;
-      width: auto;
-      height: auto;
-      display: block;
-      margin-bottom: 1rem;
-    "
-  >
+  <video controls>
     <source src="./videos/molshoop3-6s.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-  <p>nog meer hoop</p>
+  <p class="caption">{{ page.caption3 }}</p>
 
-  <video
-    controls
-    style="
-      max-width: 100%;
-      max-height: 100vh;
-      width: auto;
-      height: auto;
-      display: block;
-      margin-bottom: 1rem;
-    "
-  >
+  <video controls>
     <source src="./videos/molshoop4-5s.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-  <p>en nog meer hoop</p>
+  <p class="caption">{{ page.caption4 }}</p>
 
 </div>
 
-<p>In hoeverre is hoop een afleiding van volledig erkennen van de ernst?
-Het donker kan inspireren om onzekerheid te omarmen, epistemische nederigheid toe te laten en het terrein van rouw te verkennen. De mol nodigt daartoe uit in haar donkere krochten. De paden zijn alvast gemaakt.</p>
-  
-</body>
-</html>
+{{ page.text2 | markdownify }}
