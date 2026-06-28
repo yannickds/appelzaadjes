@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Yannick
-image: /assets/images/yannick-en-vuur.jpg
+image: /images/yannick-en-vuur.jpg
 caption:
 
 birth: 10 December 1815
