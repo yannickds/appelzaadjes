@@ -22,11 +22,45 @@
 {% if page.caption %}
 <p class="caption">{{ page.caption }}</p>
 {% endif %}
- 
 
   {{ content }}
 
 </div>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+
+    const section = document.querySelector(".epiloog");
+
+    if (!section) return;
+
+    const items = section.querySelectorAll(".fade-item");
+
+    const observer = new IntersectionObserver((entries) => {
+
+        entries.forEach(entry => {
+
+            if (!entry.isIntersecting) return;
+
+            items.forEach((item, index) => {
+
+                setTimeout(() => {
+                    item.classList.add("visible");
+                }, index * 550);
+            });
+
+            observer.disconnect();
+
+        });
+
+    }, {
+        threshold: 0.25
+    });
+
+    observer.observe(section);
+
+});
+</script>
 
 </body>
 </html>

@@ -187,3 +187,100 @@ footer {
     gap: 1rem;
   }
 }
+
+/* ==========================================================
+   EPILOOG
+   ========================================================== */
+
+.epiloog{
+
+    max-width:700px;
+
+    margin:10rem auto 5rem;
+
+    padding:0 2rem;
+
+    text-align:center;
+
+}
+
+.epiloog h2{
+
+    margin-bottom:2.5rem;
+
+    font-weight:300;
+
+    letter-spacing:.08em;
+
+}
+
+.epiloog p{
+
+    margin:2rem auto;
+
+    line-height:1.9;
+
+}
+
+.slot{
+
+    margin-top:3rem;
+
+    opacity:.75;
+
+    font-style:italic;
+
+}
+
+.uitnodiging{
+
+    margin:3rem 0;
+
+}
+
+.uitnodiging a{
+
+    color:inherit;
+
+    text-decoration:underline;
+
+    text-decoration-thickness:1px;
+
+    text-underline-offset:4px;
+
+    transition:opacity .4s ease;
+
+}
+
+.uitnodiging a:hover{
+
+    opacity:.6;
+
+}
+
+
+/* ==========================================================
+   FADE-IN
+   ========================================================== */
+
+.fade-item{
+
+    opacity:0;
+
+    transform:translateY(20px);
+
+    transition:
+
+        opacity 1.4s ease,
+
+        transform 1.4s ease;
+
+}
+
+.fade-item.visible{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
