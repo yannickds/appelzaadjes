@@ -189,7 +189,7 @@ footer {
 }
 
 /* ==========================================================
-   EPILOOG
+    molshoop EPILOOG
    ========================================================== */
 
 .epiloog{
@@ -260,7 +260,7 @@ footer {
 
 
 /* ==========================================================
-   FADE-IN
+   molshoop FADE-IN
    ========================================================== */
 
 .fade-item{
@@ -283,4 +283,17 @@ footer {
 
     transform:translateY(0);
 
+}
+
+/* ==========================================================
+   molshoop Reflection between last video and image
+   ========================================================== */
+.reflection {
+    max-width: 42rem;
+    margin: 5rem auto;
+}
+
+.reflection + img {
+    display: block;
+    margin: 4rem auto 1rem;
 }
