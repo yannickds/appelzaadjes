@@ -21,7 +21,7 @@ Wanneer we klimaat benaderen als een probleem, kent het ook een oplossing. Volge
 
 Het is onzeker of walvissen de huidige massa-extinctie zullen overleven. Als het hen gegund is, komen ze misschien ooit weer aan land, <a href="https://dark-mountain.net/will-the-whales-inherit-the-earth/" target="_blank" rel="noopener noreferrer">evoluerend tot een nieuwe intelligente soort</a> die de mensheid moreel ver overstijgt. Om deze potentiële toekomst open te houden, is het nodig dat het menselijk collectief haar traject radicaal omgooit.
 
-Ben je benieuwd en ben je er gaar bij? Hieronder vind je alle praktische informatie.
+Ben je benieuwd en ben je er graag bij? Hieronder vind je alle praktische informatie.
 
 
 ## 📍 Praktische informatie
