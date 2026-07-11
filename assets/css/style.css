@@ -292,3 +292,8 @@ footer {
     max-width: 42rem;
     margin: 5rem auto;
 }
+
+.reflection + img {
+    display: block;
+    margin: 4rem auto 1rem;
+}
