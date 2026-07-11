@@ -7,6 +7,16 @@ caption:
 
 # Appelzaadjes
 
+Appelzaadjes zitten vol impliciete orde, verlangend zich te ontvouwen.
+Zo ook zijn de ideeën die mij bezoeken in het beste geval een startpunt van een nieuw verhaal.
+Net zoals appelzaadjes hebben deze ideeën een passende context nodig om zich te ontvouwen.
+Mijn zoektocht bestaat eruit deze context te creëren. En dat in cocreatie.
+Deze website is daartoe een middel, steeds in beweging, en nooit het eindproduct.
+
+Wordt vervolgd.
+
+<!-- ... 
+
 ### Zaad als eenheid van het leven. Niet geld.
 
 De samenleving zoals we die kennen, is terminaal. Overshoot is een heftige realiteit. De veelheid aan structurele discriminatie evenzeer. Het individueel en collectief trauma is immens. Het zijn hoogdagen voor apathie, nihilisme en hedonisme.
@@ -38,3 +48,5 @@ Geïnspireerd door Vandana Shiva, Charles Eisenstein en Johnny Appleseed. Uit be
 Waarom nog?
 
 Wanneer de gevolgen van overshoot zich verder ontvouwen en winkelrekken teleurstellen, zullen er miljoenen fruitbomen, notenbomen, tamme kastanjes en moestuinen nodig zijn om onze buiken te vullen. Appelzaadjes zullen hun glorie herwinnen en opnieuw een bron van rijkdom worden.
+
+-->
