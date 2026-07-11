@@ -7,8 +7,8 @@ caption:
 
 # Appelzaadjes
 
-Appelzaadjes zitten vol impliciete orde, verlangend zich te ontvouwen.
-Zo ook zijn de ideeën die mij bezoeken in het beste geval een startpunt van een nieuw verhaal.
+Appelzaadjes zitten vol impliciete orde, vol verlangen zich te ontvouwen.
+Zo ook zijn de ideeën die mij bezoeken -in het beste geval- een startpunt van een nieuw verhaal.
 Net zoals appelzaadjes hebben deze ideeën een passende context nodig om zich te ontvouwen.
 Mijn zoektocht bestaat eruit deze context te creëren. En dat in cocreatie.
 Deze website is daartoe een middel, steeds in beweging, en nooit het eindproduct.
