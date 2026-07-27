@@ -61,6 +61,26 @@ Ben je benieuwd en ben je er graag bij? Hieronder vind je alle praktische inform
 
 Je kan het project op verschillende manieren ondersteunen:
 
+- 📍 **Hang de affiche op**
+  - Ken je een plek waar mensen graag even stilstaan?
+  - Hang de affiche op in je buurt, op je werk, in een bibliotheek, cultuurhuis, school of vereniging.
+  - Zo help je de Walviswandeling nieuwe wandelaars ontmoeten.
+  - <a href="/downloads/walviswandeling-affiche-3-oktober-2026.pdf"
+       target="_blank"
+       rel="noopener noreferrer">
+       ⬇️ Download de affiche (A4 PDF)
+    </a>
+
+  <p align="center">
+    <a href="/downloads/walviswandeling-affiche-3-oktober-2026.pdf"
+       target="_blank"
+       rel="noopener noreferrer">
+      <img src="/images/walviswandeling-affiche-3-oktober-2026.jpg"
+           alt="Affiche Walviswandeling"
+           style="max-width:260px; width:100%; border:1px solid #ddd;">
+    </a>
+  </p>
+
 - 💶 **Vrije bijdrage**
   - Richtprijs: **€30**
 
