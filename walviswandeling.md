@@ -23,14 +23,22 @@ Het is onzeker of walvissen de huidige massa-extinctie zullen overleven. Als het
 
 Ben je benieuwd en ben je er graag bij? Hieronder vind je alle praktische informatie.
 
-
 ## 📍 Praktische informatie
 
-| | |
-|:--:|---|
-| 🗓️ | **Zaterdag 3 oktober 2026** |
-| 📍 | **Strand van Bredene**<br>Ten noorden van strandpost 1.<br>De startplaats ligt op enkele steenworpen van beachbar <a href="https://bredene.be/nl/eten-drinken/beachclubs/twins-club-bredene" target="_blank" rel="noopener noreferrer">Twins Club</a>. |
+🗓️ **Wanneer**
 
+**Zaterdag 3 oktober 2026**
+
+📍 **Waar**
+
+**Strand van Bredene**
+
+Ten noorden van strandpost 1.
+
+De startplaats ligt op enkele steenworpen van beachbar
+<a href="https://bredene.be/nl/eten-drinken/beachclubs/twins-club-bredene"
+target="_blank"
+rel="noopener noreferrer">Twins Club</a>.
 
 ## 🎒 Wat breng je mee?
 
