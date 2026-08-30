@@ -1,3 +1,3 @@
 # n8n test
 
-Hello from n8n.
+This file was updated by n8n.
