@@ -5,8 +5,16 @@
         appelzaadjes
       </a>
     </li>
-    <li><a href="{{ '/walviswandeling.html' | relative_url }}">walviswandeling</a></li>
-    <li><a href="{{ '/molshoop.html' | relative_url }}">molshoop</a></li>
+
+    <li>
+      <a href="{% if page.lang == 'en' %}{{ '/en/whale-walk.html' | relative_url }}{% else %}{{ '/walviswandeling.html' | relative_url }}{% endif %}">
+        {% if page.lang == 'en' %}whale walk{% else %}walviswandeling{% endif %}
+      </a>
+    </li>
+
+    <li>
+      <a href="{{ '/molshoop.html' | relative_url }}">molshoop</a>
+    </li>
 
     {% if page.translation_url %}
     <li>
