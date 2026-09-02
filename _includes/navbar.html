@@ -1,11 +1,33 @@
 <nav>
   <ul>
+    <li>
+      <a href="{% if page.lang == 'en' %}{{ '/en/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}">
+        appelzaadjes
+      </a>
+    </li>
+    <li><a href="{{ '/walviswandeling.html' | relative_url }}">walviswandeling</a></li>
+    <li><a href="{{ '/molshoop.html' | relative_url }}">molshoop</a></li>
+
+    {% if page.translation_url %}
+    <li>
+      <a href="{{ page.translation_url | relative_url }}">
+        {% if page.lang == 'en' %}NL{% else %}EN{% endif %}
+      </a>
+    </li>
+    {% endif %}
+  </ul>
+</nav>
+
+
+<!-- zo was de navbar vooraleer de taalkeuze aanwezig was
+<nav>
+  <ul>
     <li><a href="index.html">appelzaadjes</a></li>
     <li><a href="walviswandeling.html">walviswandeling</a></li>
     <li><a href="molshoop.html">molshoop</a></li>
   </ul>
 </nav>
-
+-->
 
 
 <!-- om later opnieuw toe te voegen
