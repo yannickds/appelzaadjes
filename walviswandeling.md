@@ -5,6 +5,8 @@ title: Walviswandeling
 permalink: /walviswandeling.html
 image: images/walvis-drone-3.jpeg
 caption: "Foto: Glenn Van Roey"
+lang: nl
+translation_url: /en/whale-walk.html
 ---
 
 # Walviswandeling
