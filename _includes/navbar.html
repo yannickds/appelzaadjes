@@ -12,8 +12,11 @@
       </a>
     </li>
 
+
     <li>
-      <a href="{{ '/molshoop.html' | relative_url }}">molshoop</a>
+      <a href="{% if page.lang == 'en' %}{{ '/en/molehill.html' | relative_url }}{% else %}{{ '/molshoop.html' | relative_url }}{% endif %}">
+        {% if page.lang == 'en' %}molehill{% else %}molshoop{% endif %}
+      </a>
     </li>
 
     {% if page.translation_url %}
