@@ -1,3 +1,5 @@
+url: "https://appelzaadjes.be"
+
 collections:
   tracks:
     output: true
