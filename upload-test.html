@@ -1,77 +1,128 @@
 ---
 layout: default
-title: Molshoop uploadtest
+title: Deel een bewegende molshoop
 lang: nl
 ---
 
-<h1>Molshoop uploadtest</h1>
+<h1>Deel een bewegende molshoop</h1>
 
 <p>
-  Deze niet-gelinkte testpagina controleert of een video via de beveiligde
-  ondertekeningsdienst rechtstreeks naar Cloudinary kan worden geüpload.
+  Heb je een molshoop zien bewegen of ontstaan? Deel een korte opname voor het
+  collectieve Molshoop-project.
 </p>
 
-<button id="open-upload" type="button">Kies een testvideo</button>
-<p id="upload-status" role="status" aria-live="polite"></p>
+<form id="molehill-form">
+  <p>
+    <label for="credit">Naam of pseudoniem <small>(optioneel)</small></label><br>
+    <input id="credit" name="credit" type="text" maxlength="60" autocomplete="name">
+  </p>
+
+  <p>
+    <label for="location">Gemeente of streek <small>(optioneel, geen exact adres)</small></label><br>
+    <input id="location" name="location" type="text" maxlength="80">
+  </p>
+
+  <p><label><input id="rights" type="checkbox" required>
+    Ik maakte deze opname zelf en geef Appelzaadjes toestemming om ze op te slaan,
+    te bewerken, te combineren en te publiceren als deel van het Molshoop-project.
+    Ik behoud de rechten op mijn oorspronkelijke opname.
+  </label></p>
+
+  <p><label><input id="privacy" type="checkbox" required>
+    De opname bevat geen herkenbare personen, privégesprekken of auteursrechtelijk
+    beschermde muziek.
+  </label></p>
+
+  <p><label><input id="wildlife" type="checkbox" required>
+    De mol werd niet verstoord, blootgelegd, gevangen of gelokt.
+  </label></p>
+
+  <p>Toegelaten: MP4 of MOV, 5–20 seconden, maximaal 50 MB.</p>
+
+  <button type="submit">Kies en upload een video</button>
+  <p id="upload-status" role="status" aria-live="polite"></p>
+</form>
 
 <script src="https://upload-widget.cloudinary.com/latest/global/all.js"></script>
 <script>
 (() => {
   const signerUrl =
     'https://molshoop-upload-signer.molshoop-project.workers.dev/sign-upload';
-  const button = document.querySelector('#open-upload');
+  const cloudinaryApiKey = '189444824876369';
+  const form = document.querySelector('#molehill-form');
   const status = document.querySelector('#upload-status');
 
-  button.addEventListener('click', async () => {
-    button.disabled = true;
-    status.textContent = 'Tijdelijke uploadtoestemming aanvragen…';
+  function cleanContextValue(value, fallback) {
+    const cleaned = value
+      .trim()
+      .replace(/[|=\\\u0000-\u001f\u007f]/g, ' ')
+      .replace(/\s+/g, ' ');
+    return cleaned || fallback;
+  }
 
-    try {
-      const response = await fetch(signerUrl, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' }
-      });
+  form.addEventListener('submit', (event) => {
+    event.preventDefault();
+    if (!form.reportValidity()) return;
 
-      if (!response.ok) {
-        throw new Error(`Ondertekeningsdienst antwoordde met ${response.status}`);
-      }
-
-      const authorization = await response.json();
-
-      const widget = cloudinary.createUploadWidget(
-        {
-          cloudName: authorization.cloudName,
-          apiKey: authorization.apiKey,
-          uploadPreset: authorization.uploadPreset,
-          uploadSignature: authorization.signature,
-          uploadSignatureTimestamp: authorization.timestamp,
-          resourceType: 'video',
-          sources: ['local', 'camera'],
-          clientAllowedFormats: ['mp4', 'mov'],
-          maxFileSize: 50000000,
-          multiple: false
-        },
-        (error, result) => {
-          if (error) {
-            console.error(error);
-            status.textContent = 'Upload mislukt. Bekijk de browserconsole voor details.';
-            return;
-          }
-
-          if (result && result.event === 'success') {
-            status.textContent = `Upload gelukt: ${result.info.original_filename}`;
-          }
-        }
-      );
-
-      widget.open();
-      status.textContent = 'Uploadvenster geopend.';
-    } catch (error) {
-      console.error(error);
-      status.textContent = `Test mislukt: ${error.message}`;
-    } finally {
-      button.disabled = false;
+    if (cloudinaryApiKey === 'PASTE_PUBLIC_API_KEY_HERE') {
+      status.textContent = 'De publieke Cloudinary API-sleutel ontbreekt.';
+      return;
     }
+
+    const context = {
+      credit: cleanContextValue(document.querySelector('#credit').value, 'Anoniem'),
+      location: cleanContextValue(document.querySelector('#location').value, 'Niet opgegeven'),
+      rights_confirmed: 'true',
+      privacy_confirmed: 'true',
+      wildlife_confirmed: 'true',
+      consent_version: '2026-09-05'
+    };
+
+    const widget = cloudinary.createUploadWidget(
+      {
+        cloudName: 'molshoop',
+        apiKey: cloudinaryApiKey,
+        uploadPreset: 'molehill submission',
+        uploadSignature: async (callback, paramsToSign) => {
+          try {
+            const response = await fetch(signerUrl, {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ paramsToSign })
+            });
+            const result = await response.json();
+            if (!response.ok) {
+              throw new Error(result.error || `Ondertekeningsfout ${response.status}`);
+            }
+            callback(result.signature);
+          } catch (error) {
+            console.error(error);
+            status.textContent = `Uploadtoestemming mislukt: ${error.message}`;
+          }
+        },
+        context,
+        resourceType: 'video',
+        sources: ['local', 'camera'],
+        clientAllowedFormats: ['mp4', 'mov'],
+        maxFileSize: 50000000,
+        multiple: false,
+        showAdvancedOptions: false
+      },
+      (error, result) => {
+        if (error) {
+          console.error(error);
+          status.textContent = 'Upload mislukt. Probeer opnieuw.';
+          return;
+        }
+        if (result && result.event === 'success') {
+          status.textContent = 'Dank je. Je video werd ontvangen en wacht op beoordeling.';
+          form.reset();
+        }
+      }
+    );
+
+    status.textContent = 'Uploadvenster openen…';
+    widget.open();
   });
 })();
 </script>
