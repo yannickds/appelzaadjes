@@ -1,0 +1,77 @@
+---
+layout: default
+title: Molshoop uploadtest
+lang: nl
+---
+
+<h1>Molshoop uploadtest</h1>
+
+<p>
+  Deze niet-gelinkte testpagina controleert of een video via de beveiligde
+  ondertekeningsdienst rechtstreeks naar Cloudinary kan worden geüpload.
+</p>
+
+<button id="open-upload" type="button">Kies een testvideo</button>
+<p id="upload-status" role="status" aria-live="polite"></p>
+
+<script src="https://upload-widget.cloudinary.com/latest/global/all.js"></script>
+<script>
+(() => {
+  const signerUrl =
+    'https://molshoop-upload-signer.molshoop-project.workers.dev/sign-upload';
+  const button = document.querySelector('#open-upload');
+  const status = document.querySelector('#upload-status');
+
+  button.addEventListener('click', async () => {
+    button.disabled = true;
+    status.textContent = 'Tijdelijke uploadtoestemming aanvragen…';
+
+    try {
+      const response = await fetch(signerUrl, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' }
+      });
+
+      if (!response.ok) {
+        throw new Error(`Ondertekeningsdienst antwoordde met ${response.status}`);
+      }
+
+      const authorization = await response.json();
+
+      const widget = cloudinary.createUploadWidget(
+        {
+          cloudName: authorization.cloudName,
+          apiKey: authorization.apiKey,
+          uploadPreset: authorization.uploadPreset,
+          uploadSignature: authorization.signature,
+          uploadSignatureTimestamp: authorization.timestamp,
+          resourceType: 'video',
+          sources: ['local', 'camera'],
+          clientAllowedFormats: ['mp4', 'mov'],
+          maxFileSize: 50000000,
+          multiple: false
+        },
+        (error, result) => {
+          if (error) {
+            console.error(error);
+            status.textContent = 'Upload mislukt. Bekijk de browserconsole voor details.';
+            return;
+          }
+
+          if (result && result.event === 'success') {
+            status.textContent = `Upload gelukt: ${result.info.original_filename}`;
+          }
+        }
+      );
+
+      widget.open();
+      status.textContent = 'Uploadvenster geopend.';
+    } catch (error) {
+      console.error(error);
+      status.textContent = `Test mislukt: ${error.message}`;
+    } finally {
+      button.disabled = false;
+    }
+  });
+})();
+</script>
