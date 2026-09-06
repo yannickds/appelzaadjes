@@ -1,0 +1,179 @@
+---
+layout: default
+title: Share a moving molehill
+lang: en
+permalink: /en/share-a-molehill.html
+translation_url: /deel-een-molshoop.html
+---
+
+<h1>Share a moving molehill</h1>
+
+<p>
+  Have you seen a molehill move or emerge? Share a short recording for the
+  collective Molehill project.
+</p>
+
+<ul>
+  <li>Film only the molehill and its immediate surroundings.</li>
+  <li>MP4 or MOV, 5–20 seconds, no more than 50 MB.</li>
+  <li>Portrait and landscape recordings are both welcome.</li>
+</ul>
+
+<form id="molehill-form">
+  <p>
+    <label for="credit">Name or pseudonym <small>(optional)</small></label><br>
+    <input id="credit" name="credit" type="text" maxlength="60" autocomplete="name">
+  </p>
+
+  <p>
+    <label for="location">Municipality or region <small>(optional, no exact address)</small></label><br>
+    <input id="location" name="location" type="text" maxlength="80">
+  </p>
+
+  <p><label><input id="rights" type="checkbox" required>
+    I made this recording myself and give Appelzaadjes permission to store, edit,
+    combine and publish it as part of the Molehill project. I retain the rights
+    to my original recording.
+  </label></p>
+
+  <p><label><input id="privacy" type="checkbox" required>
+    The recording contains no recognizable people, private conversations or
+    copyrighted music.
+  </label></p>
+
+  <p><label><input id="wildlife" type="checkbox" required>
+    The mole was not disturbed, uncovered, trapped or attracted.
+  </label></p>
+
+  <p>Accepted: MP4 or MOV, 5–20 seconds, no more than 50 MB.</p>
+
+  <p><small>
+    Cloudflare Turnstile checks this submission for automated abuse. Cloudinary
+    stores the video and the information entered above. Submissions are published
+    only after human review. To request removal later, email
+    <a href="mailto:yannickdestrycker@protonmail.com">yannickdestrycker@protonmail.com</a>.
+  </small></p>
+
+  <div class="cf-turnstile"
+       data-sitekey="0x4AAAAAAEqNKE2mGQKrcKvN"
+       data-action="molehill_upload"
+       data-theme="auto"
+       data-size="flexible"></div>
+
+  <button type="submit">Choose and upload a video</button>
+  <p id="upload-status" role="status" aria-live="polite"></p>
+</form>
+
+<section id="upload-success" tabindex="-1" hidden>
+  <h2>✓ Upload successful</h2>
+  <p>Thank you. Your video was received and is awaiting review.</p>
+  <p>You do not need to do anything else. The video is not published automatically.</p>
+  <button id="upload-another" type="button">Upload another video</button>
+</section>
+
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+<script src="https://upload-widget.cloudinary.com/latest/global/all.js"></script>
+<script>
+(() => {
+  const signerUrl =
+    'https://molshoop-upload-signer.molshoop-project.workers.dev/sign-upload';
+  const cloudinaryApiKey = '189444824876369';
+  const form = document.querySelector('#molehill-form');
+  const status = document.querySelector('#upload-status');
+  const success = document.querySelector('#upload-success');
+  const uploadAnother = document.querySelector('#upload-another');
+
+  function cleanContextValue(value, fallback) {
+    const cleaned = value
+      .trim()
+      .replace(/[|=\\\u0000-\u001f\u007f]/g, ' ')
+      .replace(/\s+/g, ' ');
+    return cleaned || fallback;
+  }
+
+  form.addEventListener('submit', (event) => {
+    event.preventDefault();
+    if (!form.reportValidity()) return;
+
+    if (cloudinaryApiKey === 'PASTE_PUBLIC_API_KEY_HERE') {
+      status.textContent = 'The public Cloudinary API key is missing.';
+      return;
+    }
+
+    const turnstileToken =
+      form.querySelector('[name="cf-turnstile-response"]')?.value;
+
+    if (!turnstileToken) {
+      status.textContent = 'Wait for the security check to finish.';
+      return;
+    }
+
+    const context = {
+      credit: cleanContextValue(document.querySelector('#credit').value, 'Anonymous'),
+      location: cleanContextValue(document.querySelector('#location').value, 'Not provided'),
+      rights_confirmed: 'true',
+      privacy_confirmed: 'true',
+      wildlife_confirmed: 'true',
+      consent_version: '2026-09-05'
+    };
+
+    const widget = cloudinary.createUploadWidget(
+      {
+        cloudName: 'molshoop',
+        apiKey: cloudinaryApiKey,
+        uploadPreset: 'molehill submission',
+        uploadSignature: async (callback, paramsToSign) => {
+          try {
+            const response = await fetch(signerUrl, {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ paramsToSign, turnstileToken })
+            });
+            const result = await response.json();
+            if (!response.ok) {
+              throw new Error(result.error || `Signing error ${response.status}`);
+            }
+            callback(result.signature);
+          } catch (error) {
+            console.error(error);
+            status.textContent = `Upload permission failed: ${error.message}`;
+            if (window.turnstile) turnstile.reset();
+          }
+        },
+        context,
+        resourceType: 'video',
+        sources: ['local', 'camera'],
+        clientAllowedFormats: ['mp4', 'mov'],
+        maxFileSize: 50000000,
+        multiple: false,
+        showAdvancedOptions: false
+      },
+      (error, result) => {
+        if (error) {
+          console.error(error);
+          status.textContent = 'Upload failed. Please try again.';
+          return;
+        }
+        if (result && result.event === 'success') {
+          form.reset();
+          if (window.turnstile) turnstile.reset();
+          form.hidden = true;
+          success.hidden = false;
+          success.focus();
+        }
+      }
+    );
+
+    status.textContent = 'Opening the upload window…';
+    widget.open();
+  });
+
+  uploadAnother.addEventListener('click', () => {
+    success.hidden = true;
+    form.hidden = false;
+    status.textContent = '';
+    if (window.turnstile) turnstile.reset();
+    document.querySelector('#credit').focus();
+  });
+})();
+</script>
