@@ -43,6 +43,13 @@ lang: nl
   <p id="upload-status" role="status" aria-live="polite"></p>
 </form>
 
+<section id="upload-success" tabindex="-1" hidden>
+  <h2>✓ Upload gelukt</h2>
+  <p>Dank je. Je video werd ontvangen en wacht op beoordeling.</p>
+  <p>Je hoeft niets meer te doen. De video wordt niet automatisch gepubliceerd.</p>
+  <button id="upload-another" type="button">Nog een video uploaden</button>
+</section>
+
 <script src="https://upload-widget.cloudinary.com/latest/global/all.js"></script>
 <script>
 (() => {
@@ -51,6 +58,8 @@ lang: nl
   const cloudinaryApiKey = '189444824876369';
   const form = document.querySelector('#molehill-form');
   const status = document.querySelector('#upload-status');
+  const success = document.querySelector('#upload-success');
+  const uploadAnother = document.querySelector('#upload-another');
 
   function cleanContextValue(value, fallback) {
     const cleaned = value
@@ -115,14 +124,23 @@ lang: nl
           return;
         }
         if (result && result.event === 'success') {
-          status.textContent = 'Dank je. Je video werd ontvangen en wacht op beoordeling.';
           form.reset();
+          form.hidden = true;
+          success.hidden = false;
+          success.focus();
         }
       }
     );
 
     status.textContent = 'Uploadvenster openen…';
     widget.open();
+  });
+
+  uploadAnother.addEventListener('click', () => {
+    success.hidden = true;
+    form.hidden = false;
+    status.textContent = '';
+    document.querySelector('#credit').focus();
   });
 })();
 </script>
