@@ -39,6 +39,12 @@ lang: nl
 
   <p>Toegelaten: MP4 of MOV, 5–20 seconden, maximaal 50 MB.</p>
 
+  <div class="cf-turnstile"
+       data-sitekey="0x4AAAAAAEqNKE2mGQKrcKvN"
+       data-action="molehill_upload"
+       data-theme="auto"
+       data-size="flexible"></div>
+
   <button type="submit">Kies en upload een video</button>
   <p id="upload-status" role="status" aria-live="polite"></p>
 </form>
@@ -50,6 +56,7 @@ lang: nl
   <button id="upload-another" type="button">Nog een video uploaden</button>
 </section>
 
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 <script src="https://upload-widget.cloudinary.com/latest/global/all.js"></script>
 <script>
 (() => {
@@ -78,6 +85,14 @@ lang: nl
       return;
     }
 
+    const turnstileToken =
+      form.querySelector('[name="cf-turnstile-response"]')?.value;
+
+    if (!turnstileToken) {
+      status.textContent = 'Wacht tot de beveiligingscontrole voltooid is.';
+      return;
+    }
+
     const context = {
       credit: cleanContextValue(document.querySelector('#credit').value, 'Anoniem'),
       location: cleanContextValue(document.querySelector('#location').value, 'Niet opgegeven'),
@@ -97,7 +112,7 @@ lang: nl
             const response = await fetch(signerUrl, {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify({ paramsToSign })
+              body: JSON.stringify({ paramsToSign, turnstileToken })
             });
             const result = await response.json();
             if (!response.ok) {
@@ -107,6 +122,7 @@ lang: nl
           } catch (error) {
             console.error(error);
             status.textContent = `Uploadtoestemming mislukt: ${error.message}`;
+            if (window.turnstile) turnstile.reset();
           }
         },
         context,
@@ -125,6 +141,7 @@ lang: nl
         }
         if (result && result.event === 'success') {
           form.reset();
+          if (window.turnstile) turnstile.reset();
           form.hidden = true;
           success.hidden = false;
           success.focus();
@@ -140,6 +157,7 @@ lang: nl
     success.hidden = true;
     form.hidden = false;
     status.textContent = '';
+    if (window.turnstile) turnstile.reset();
     document.querySelector('#credit').focus();
   });
 })();
