@@ -117,11 +117,15 @@ translation_url: /deel-een-molshoop.html
       consent_version: '2026-09-05'
     };
 
+    const submissionId = `molshoop_${crypto.randomUUID()}`;
+    
     const widget = cloudinary.createUploadWidget(
       {
         cloudName: 'molshoop',
         apiKey: cloudinaryApiKey,
         uploadPreset: 'molehill submission',
+        publicId: submissionId,
+        overwrite: false,
         uploadSignature: async (callback, paramsToSign) => {
           try {
             const response = await fetch(signerUrl, {
