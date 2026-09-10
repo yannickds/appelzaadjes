@@ -117,3 +117,139 @@ Je kan het project op verschillende manieren ondersteunen:
     ✨ Schrijf je in
   </a>
 </p>
+
+
+<!-- Walviswandeling fotocarrousel -->
+<section class="walvis-carousel"
+         aria-label="Foto’s van de Walviswandeling"
+         tabindex="0">
+
+  <div class="walvis-slides">
+
+    <figure class="walvis-slide is-active">
+      <img
+        src="{{ '/images/walvis-wandelen-close-up.jpeg' | relative_url }}"
+        alt="Close-up van de Walviswandeling op het strand"
+        loading="lazy">
+    </figure>
+
+    <figure class="walvis-slide">
+      <img
+        src="{{ '/images/walvis-drone-0.jpeg' | relative_url }}"
+        alt="Luchtfoto van de Walviswandeling"
+        loading="lazy">
+    </figure>
+
+    <figure class="walvis-slide">
+      <img
+        src="{{ '/images/walvis-drone-1.jpeg' | relative_url }}"
+        alt="De walvistekening op het strand, gezien vanuit de lucht"
+        loading="lazy">
+    </figure>
+
+    <figure class="walvis-slide">
+      <img
+        src="{{ '/images/walvis-drone-2.jpeg' | relative_url }}"
+        alt="Luchtbeeld van deelnemers aan de Walviswandeling"
+        loading="lazy">
+    </figure>
+
+    <figure class="walvis-slide">
+      <img
+        src="{{ '/images/walvis-drone-3.jpeg' | relative_url }}"
+        alt="Overzicht van de Walviswandeling vanuit de lucht"
+        loading="lazy">
+    </figure>
+
+    <button class="walvis-arrow walvis-previous"
+            type="button"
+            aria-label="Vorige foto">
+      &#10094;
+    </button>
+
+    <button class="walvis-arrow walvis-next"
+            type="button"
+            aria-label="Volgende foto">
+      &#10095;
+    </button>
+
+  </div>
+
+  <div class="walvis-dots" aria-label="Kies een foto">
+    <button type="button" class="is-active" aria-label="Toon foto 1"></button>
+    <button type="button" aria-label="Toon foto 2"></button>
+    <button type="button" aria-label="Toon foto 3"></button>
+    <button type="button" aria-label="Toon foto 4"></button>
+    <button type="button" aria-label="Toon foto 5"></button>
+  </div>
+
+  <p class="walvis-counter" aria-live="polite">1 / 5</p>
+  <p class="walvis-copyright">Foto’s © Glenn Van Roey</p>
+
+</section>
+
+<script>
+  (() => {
+    const carousel = document.querySelector(".walvis-carousel");
+
+    if (!carousel) return;
+
+    const slides = carousel.querySelectorAll(".walvis-slide");
+    const dots = carousel.querySelectorAll(".walvis-dots button");
+    const counter = carousel.querySelector(".walvis-counter");
+    const previousButton = carousel.querySelector(".walvis-previous");
+    const nextButton = carousel.querySelector(".walvis-next");
+
+    let currentSlide = 0;
+
+    function showSlide(index) {
+      currentSlide = (index + slides.length) % slides.length;
+
+      slides.forEach((slide, slideIndex) => {
+        slide.classList.toggle(
+          "is-active",
+          slideIndex === currentSlide
+        );
+      });
+
+      dots.forEach((dot, dotIndex) => {
+        const isCurrent = dotIndex === currentSlide;
+
+        dot.classList.toggle("is-active", isCurrent);
+        dot.setAttribute(
+          "aria-current",
+          isCurrent ? "true" : "false"
+        );
+      });
+
+      counter.textContent =
+        `${currentSlide + 1} / ${slides.length}`;
+    }
+
+    previousButton.addEventListener("click", () => {
+      showSlide(currentSlide - 1);
+    });
+
+    nextButton.addEventListener("click", () => {
+      showSlide(currentSlide + 1);
+    });
+
+    dots.forEach((dot, index) => {
+      dot.addEventListener("click", () => {
+        showSlide(index);
+      });
+    });
+
+    carousel.addEventListener("keydown", event => {
+      if (event.key === "ArrowLeft") {
+        showSlide(currentSlide - 1);
+      }
+
+      if (event.key === "ArrowRight") {
+        showSlide(currentSlide + 1);
+      }
+    });
+
+    showSlide(0);
+  })();
+</script>
