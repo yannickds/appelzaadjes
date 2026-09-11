@@ -2,6 +2,7 @@
 layout: default
 title: "Bioregions on the Dymaxion Map"
 lang: en
+---
 permalink: /en/dymaxion-bioregions.html
 ---
 
