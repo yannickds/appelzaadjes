@@ -2,7 +2,6 @@
 layout: default
 title: "Bioregions on the Dymaxion Map"
 lang: en
----
 permalink: /en/dymaxion-bioregions.html
 ---
 
@@ -20,7 +19,7 @@ faces of the Dymaxion map.
 
 <a href="{{ '/images/dymaxion-bioregions.png' | relative_url }}">
   <img
-    src="{{ '/images/dymaxion-bioregions' | relative_url }}"
+    src="{{ '/images/dymaxion-bioregions.png' | relative_url }}"
     alt="An approximate visualization of One Earth’s bioregions on
     the unfolded Dymaxion map, with source credits below."
     decoding="async">
