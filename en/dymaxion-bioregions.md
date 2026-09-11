@@ -20,7 +20,7 @@ faces of the Dymaxion map.
 
 <a href="{{ '/images/dymaxion-bioregions.png' | relative_url }}">
   <img
-    src="{{ '/images/dymaxion-bioregions.png' | relative_url }}"
+    src="{{ '/images/dymaxion-bioregions' | relative_url }}"
     alt="An approximate visualization of One Earth’s bioregions on
     the unfolded Dymaxion map, with source credits below."
     decoding="async">
