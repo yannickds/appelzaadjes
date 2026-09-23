@@ -19,6 +19,14 @@
       </a>
     </li>
 
+    {% unless page.lang == 'en' %}
+    <li>
+      <a href="{{ '/pluimritueel.html' | relative_url }}">
+        pluimritueel
+      </a>
+    </li>
+    {% endunless %}
+    
     {% if page.translation_url %}
     <li>
       <a href="{{ page.translation_url | relative_url }}">
