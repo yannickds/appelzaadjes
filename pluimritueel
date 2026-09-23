@@ -35,6 +35,33 @@ permalink: /pluimritueel.html
 
   <p><strong>De pluim maakt rouw zichtbaar.<br>Vele pluimen maken collectieve rouw zichtbaar.</strong></p>
 
+<h2>Neem het ritueel mee</h2>
+
+<p>
+  Download de leidraad met de stappen en de omkadering.
+  Twee pagina’s op A4, om zelf af te drukken.
+</p>
+
+<p>
+  <a href="{{ '/downloads/pluimritueel.pdf' | relative_url }}" download>
+    Download het pluimritueel (PDF, 2 pagina’s)
+  </a>
+</p>
+
+<a href="{{ '/downloads/pluimritueel.pdf' | relative_url }}"
+   target="_blank"
+   rel="noopener noreferrer">
+  <img
+    src="{{ '/images/pluimritueel-voorbeeld.png' | relative_url }}"
+    alt="Voorkant van de leidraad Pluimritueel. Klik om de PDF te openen."
+    loading="lazy"
+    style="max-width:320px; width:100%; height:auto; border:1px solid #ddd;">
+</a>
+
+<p>
+  Dubbelzijdig afdrukken? Kies “omslaan langs de lange zijde”.
+</p>
+
   <h2>Inspiratie</h2>
 
   <p>Geïnspireerd door <a href="https://radicaljoy.org">Radical Joy for Hard Times</a>.</p>
