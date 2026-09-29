@@ -1,0 +1,103 @@
+<nav class="site-nav">
+  <div class="lens-control" hidden>
+    <label for="site-lens">
+      {% if page.lang == 'en' %}
+        Choose your lens
+      {% else %}
+        Kies je lens
+      {% endif %}
+    </label>
+
+    <select id="site-lens">
+      <option value="grief">
+        {% if page.lang == 'en' %}Grief{% else %}Rouw{% endif %}
+      </option>
+
+      <option value="presence">
+        {% if page.lang == 'en' %}Presence{% else %}Aanwezigheid{% endif %}
+      </option>
+
+      <option value="self-awareness">
+        {% if page.lang == 'en' %}Self-awareness{% else %}Zelfbewustzijn{% endif %}
+      </option>
+
+      <option value="gut-feeling">
+        {% if page.lang == 'en' %}Trusting your gut feeling{% else %}Vertrouwen op je buikgevoel{% endif %}
+      </option>
+
+      <option value="acceptance">
+        {% if page.lang == 'en' %}Acceptance{% else %}Aanvaarding{% endif %}
+      </option>
+
+      <option value="compassion">
+        {% if page.lang == 'en' %}Compassion{% else %}Compassie{% endif %}
+      </option>
+
+      <option value="authenticity">
+        {% if page.lang == 'en' %}Authenticity{% else %}Authenticiteit{% endif %}
+      </option>
+
+      <option value="confidence">
+        {% if page.lang == 'en' %}Confidence{% else %}Zelfvertrouwen{% endif %}
+      </option>
+
+      <option value="non-judgement">
+        {% if page.lang == 'en' %}Non-judgement{% else %}Niet oordelen{% endif %}
+      </option>
+
+      <option value="curiosity">
+        {% if page.lang == 'en' %}Curiosity{% else %}Nieuwsgierigheid{% endif %}
+      </option>
+
+      <option value="playfulness">
+        {% if page.lang == 'en' %}Playfulness{% else %}Speelsheid{% endif %}
+      </option>
+    </select>
+  </div>
+
+  <ul>
+    <li>
+      <a href="{% if page.lang == 'en' %}{{ '/en/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}">
+        appelzaadjes
+      </a>
+    </li>
+
+    <li>
+      <a href="{% if page.lang == 'en' %}{{ '/en/whale-walk.html' | relative_url }}{% else %}{{ '/walviswandeling.html' | relative_url }}{% endif %}">
+        {% if page.lang == 'en' %}
+          whale walk
+        {% else %}
+          walviswandeling
+        {% endif %}
+      </a>
+    </li>
+
+    <li>
+      <a href="{% if page.lang == 'en' %}{{ '/en/molehill.html' | relative_url }}{% else %}{{ '/molshoop.html' | relative_url }}{% endif %}">
+        {% if page.lang == 'en' %}
+          molehill
+        {% else %}
+          molshoop
+        {% endif %}
+      </a>
+    </li>
+
+    {% unless page.lang == 'en' %}
+    <li>
+      <a href="{{ '/pluimritueel.html' | relative_url }}">
+        pluimritueel
+      </a>
+    </li>
+    {% endunless %}
+  </ul>
+
+  {% if page.translation_url %}
+  <a
+    class="site-language"
+    href="{{ page.translation_url | relative_url }}"
+    lang="{% if page.lang == 'en' %}nl{% else %}en{% endif %}"
+  >
+    {% if page.lang == 'en' %}NL{% else %}EN{% endif %}
+  </a>
+  {% endif %}
+</nav>
