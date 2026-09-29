@@ -1,0 +1,285 @@
+/* Original colours: Grief / Rouw */
+:root {
+  color-scheme: dark;
+  --lens-background: #1a1a1a;
+  --lens-text: #e0e0e0;
+  --lens-heading: #f0f0f0;
+  --lens-muted: #999999;
+  --lens-secondary: #aaaaaa;
+  --lens-link: #61afef;
+  --lens-hover: #98c379;
+  --lens-surface: #2d2d2d;
+  --lens-button: #3b3b3b;
+  --lens-border: #505050;
+  --lens-divider: #404040;
+  --lens-nav: #252525;
+}
+
+/* Shared rules for the ten lighter palettes */
+:root[data-lens]:not([data-lens="grief"]) {
+  color-scheme: light;
+  --lens-heading: var(--lens-text);
+  --lens-muted: var(--lens-link);
+  --lens-secondary: var(--lens-link);
+  --lens-hover: var(--lens-text);
+  --lens-button: var(--lens-surface);
+  --lens-border: var(--lens-link);
+  --lens-divider: var(--lens-link);
+}
+
+/* Presence: soft sage */
+:root[data-lens="presence"] {
+  --lens-background: #f2f5ed;
+  --lens-nav: #e2e9da;
+  --lens-surface: #e8eedf;
+  --lens-text: #26352b;
+  --lens-link: #3e624b;
+}
+
+/* Self-awareness: lavender */
+:root[data-lens="self-awareness"] {
+  --lens-background: #f0edf7;
+  --lens-nav: #e4ddee;
+  --lens-surface: #e9e3f2;
+  --lens-text: #352e47;
+  --lens-link: #665085;
+}
+
+/* Trusting your gut feeling: warm apricot */
+:root[data-lens="gut-feeling"] {
+  --lens-background: #faf0e6;
+  --lens-nav: #f0dfcd;
+  --lens-surface: #f4e5d5;
+  --lens-text: #473324;
+  --lens-link: #895028;
+}
+
+/* Acceptance: sand */
+:root[data-lens="acceptance"] {
+  --lens-background: #f4f1e7;
+  --lens-nav: #e9e3d1;
+  --lens-surface: #eee8d9;
+  --lens-text: #3d3a2c;
+  --lens-link: #6f6230;
+}
+
+/* Compassion: rose */
+:root[data-lens="compassion"] {
+  --lens-background: #f9eeee;
+  --lens-nav: #efdddd;
+  --lens-surface: #f3e3e3;
+  --lens-text: #473032;
+  --lens-link: #8a454f;
+}
+
+/* Authenticity: green */
+:root[data-lens="authenticity"] {
+  --lens-background: #eaf4f0;
+  --lens-nav: #d6e8df;
+  --lens-surface: #e0ede6;
+  --lens-text: #263d34;
+  --lens-link: #346b55;
+}
+
+/* Confidence: blue */
+:root[data-lens="confidence"] {
+  --lens-background: #edf1fa;
+  --lens-nav: #dbe3f2;
+  --lens-surface: #e2e9f5;
+  --lens-text: #28364b;
+  --lens-link: #365d94;
+}
+
+/* Non-judgement: blue-grey */
+:root[data-lens="non-judgement"] {
+  --lens-background: #eef3f5;
+  --lens-nav: #dfe8ed;
+  --lens-surface: #e5edf0;
+  --lens-text: #303c43;
+  --lens-link: #4c6472;
+}
+
+/* Curiosity: turquoise */
+:root[data-lens="curiosity"] {
+  --lens-background: #e9f5f5;
+  --lens-nav: #d1e9e9;
+  --lens-surface: #dcefee;
+  --lens-text: #233e40;
+  --lens-link: #286b71;
+}
+
+/* Playfulness: warm yellow */
+:root[data-lens="playfulness"] {
+  --lens-background: #fcf4df;
+  --lens-nav: #f5e6bd;
+  --lens-surface: #f8edcf;
+  --lens-text: #49351e;
+  --lens-link: #885119;
+}
+
+/* Apply the palette to the existing website */
+body {
+  background-color: var(--lens-background);
+  color: var(--lens-text);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--lens-heading);
+}
+
+.caption,
+footer {
+  color: var(--lens-muted);
+}
+
+a {
+  color: var(--lens-link);
+}
+
+a:hover {
+  color: var(--lens-hover);
+}
+
+code,
+pre,
+th {
+  background-color: var(--lens-surface);
+}
+
+nav,
+footer {
+  background-color: var(--lens-nav);
+}
+
+th,
+td {
+  border-bottom-color: var(--lens-divider);
+}
+
+button,
+.btn {
+  background-color: var(--lens-button);
+  color: var(--lens-text);
+  border-color: var(--lens-border);
+}
+
+button:hover,
+.btn:hover {
+  background-color: var(--lens-border);
+  border-color: var(--lens-link);
+}
+
+button:focus-visible,
+.btn:focus-visible,
+.walvis-carousel:focus-visible {
+  outline-color: var(--lens-link);
+}
+
+/* Keep links in the molshoop invitation consistent */
+.uitnodiging a,
+.uitnodiging a:hover {
+  color: inherit;
+}
+
+/* Preserve the carousel controls over photographs */
+.walvis-arrow {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+}
+
+.walvis-arrow:hover {
+  background-color: rgba(0, 0, 0, 0.85);
+  color: #ffffff;
+  border-color: transparent;
+}
+
+.walvis-dots button {
+  background-color: transparent;
+  border-color: var(--lens-secondary);
+}
+
+.walvis-dots button:hover {
+  background-color: var(--lens-border);
+  border-color: var(--lens-link);
+}
+
+.walvis-dots button.is-active {
+  background-color: var(--lens-link);
+  border-color: var(--lens-link);
+}
+
+.walvis-counter,
+.walvis-copyright {
+  color: var(--lens-secondary);
+}
+
+/* Navigation: lens left, page links middle, language right */
+.site-nav {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.site-nav ul {
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.lens-control {
+  justify-self: start;
+  min-width: 0;
+  max-width: 100%;
+}
+
+.lens-control[hidden] {
+  display: none;
+}
+
+.lens-control label {
+  display: block;
+  font-size: 0.85em;
+  color: var(--lens-text);
+}
+
+.lens-control select {
+  max-width: 100%;
+  min-height: 44px;
+  padding: 0.4rem 0.5rem;
+  font: inherit;
+  background-color: var(--lens-nav);
+  color: var(--lens-text);
+  border: 1px solid var(--lens-secondary);
+  border-radius: 4px;
+}
+
+.lens-control select:focus-visible,
+.site-nav a:focus-visible {
+  outline: 2px solid var(--lens-link);
+  outline-offset: 4px;
+}
+
+.site-language {
+  justify-self: end;
+}
+
+/* On smaller screens, page links move to a second row */
+@media (max-width: 1000px) {
+  .site-nav {
+    grid-template-columns: minmax(0, 1fr) auto;
+    padding: 1rem;
+  }
+
+  .site-nav ul {
+    grid-row: 2;
+    grid-column: 1 / -1;
+    flex-direction: row;
+  }
+
+  .site-language {
+    grid-column: 2;
+    grid-row: 1;
+  }
+}
