@@ -17,6 +17,10 @@ Deze website is daartoe een middel, steeds in beweging, en nooit het eindproduct
 
 Wordt vervolgd.
 
+## Kies je lens
+
+Hoe we kijken, kleurt wat we zien. Rouw heeft deze website mee vormgegeven. Maar er zijn ook andere lenzen: aanwezigheid, compassie, nieuwsgierigheid, speelsheid… Links bovenaan kun je kiezen welke lens je vandaag aanspreekt. De kleuren veranderen; de verhalen en mogelijkheden blijven dezelfde. Je kunt op elk moment opnieuw kiezen.
+
 <!-- ... 
 
 ### Zaad als eenheid van het leven. Niet geld.
