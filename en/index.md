@@ -17,3 +17,7 @@ My search is about creating that context. And doing so in co-creation.
 This website is a means to that end: always in motion, never the final product.
 
 To be continued.
+
+## Choose your lens
+
+How we look colours what we see. Grief has helped shape this website. But there are other lenses too: presence, compassion, curiosity, playfulness… At the top left, you can choose a lens that speaks to you today. The colours change; the stories and possibilities stay the same. You can choose again at any time.
