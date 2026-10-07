@@ -28,7 +28,7 @@ Curious and eager to join us? You will find all the practical information below.
 
 🗓️ **When**
 
-**Saturday, 3 October 2026**
+**On demand**
 
 📍 **Where**
 
