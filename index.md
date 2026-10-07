@@ -21,6 +21,8 @@ Wordt vervolgd.
 
 Hoe we kijken, kleurt wat we zien. Rouw heeft deze website mee vormgegeven. Maar er zijn ook andere lenzen: aanwezigheid, compassie, nieuwsgierigheid, speelsheid… Links bovenaan kun je kiezen welke lens je vandaag aanspreekt. De kleuren veranderen; de verhalen en mogelijkheden blijven dezelfde. Je kunt op elk moment opnieuw kiezen.
 
+De gekozen lenzen zijn *10 first principles for healing* die ik leerde kennen via [InterGifted](https://intergifted.com). Ze bieden de mogelijkheid om mijn eigen [bias](https://buster.medium.com/cognitive-bias-cheat-sheet-55a472476b18) naar het negatieve te corrigeren.
+
 <!-- ... 
 
 ### Zaad als eenheid van het leven. Niet geld.
