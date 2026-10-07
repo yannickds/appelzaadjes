@@ -29,7 +29,7 @@ Ben je benieuwd en ben je er graag bij? Hieronder vind je alle praktische inform
 
 🗓️ **Wanneer**
 
-**Zaterdag 3 oktober 2026**
+**Op aanvraag**
 
 📍 **Waar**
 
