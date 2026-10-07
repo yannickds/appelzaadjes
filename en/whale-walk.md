@@ -28,7 +28,7 @@ Curious and eager to join us? You will find all the practical information below.
 
 🗓️ **When**
 
-**On demand**
+On demand
 
 📍 **Where**
 
