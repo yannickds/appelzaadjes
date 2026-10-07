@@ -23,6 +23,8 @@ Hoe we kijken, kleurt wat we zien. Rouw heeft deze website mee vormgegeven. Maar
 
 De gekozen lenzen zijn *10 first principles for healing* die ik leerde kennen via [InterGifted](https://intergifted.com). Ze bieden de mogelijkheid om mijn eigen [bias](https://buster.medium.com/cognitive-bias-cheat-sheet-55a472476b18) naar het negatieve te corrigeren.
 
+contact: yannickdestrycker@protonmail.com
+
 <!-- ... 
 
 ### Zaad als eenheid van het leven. Niet geld.
