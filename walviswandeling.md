@@ -29,7 +29,7 @@ Ben je benieuwd en ben je er graag bij? Hieronder vind je alle praktische inform
 
 🗓️ **Wanneer**
 
-**Op aanvraag**
+Op aanvraag
 
 📍 **Waar**
 
