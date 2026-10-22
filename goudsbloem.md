@@ -33,7 +33,7 @@ translation_url: /en/
 
 <span class="goudsbloem-spreker">Goudsbloem</span>
 
-Goudsbloem is een droom van zichzelf om meer kenbaarheid te geven aan assisted migration en aanverwante initiatieven.
+Goudsbloem is een droom van mezelf om meer kenbaarheid te geven aan assisted migration en aanverwante initiatieven.
 
 </div>
 
@@ -41,7 +41,7 @@ Goudsbloem is een droom van zichzelf om meer kenbaarheid te geven aan assisted m
 
 <span class="goudsbloem-spreker">Mens</span>
 
-Goudsbloem is een droom van zichzelf? Daar snap ik niets van.
+Jij bent een goudsbloem die droomt van zichzelf? Daar snap ik niets van.
 
 </div>
 

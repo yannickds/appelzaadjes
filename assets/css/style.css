@@ -62,13 +62,29 @@ p {
 /* Links */
 a {
   color: #61afef;
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
   transition: color 0.3s ease;
 }
 
 a:hover {
   color: #98c379;
-  text-decoration: underline;
+}
+
+a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+}
+
+/* Menulinks en knoplinks: geen onderlijning */
+nav a,
+nav a:hover,
+nav a:focus-visible,
+a.btn,
+a.btn:hover,
+a.btn:focus-visible {
+  text-decoration: none;
 }
 
 /* Code Blocks */
@@ -267,25 +283,6 @@ footer {
 
 }
 
-.uitnodiging a{
-
-    color:inherit;
-
-    text-decoration:underline;
-
-    text-decoration-thickness:1px;
-
-    text-underline-offset:4px;
-
-    transition:opacity .4s ease;
-
-}
-
-.uitnodiging a:hover{
-
-    opacity:.6;
-
-}
 
 
 /* ==========================================================
@@ -622,14 +619,4 @@ footer {
   margin-top: 0;
   font-size: 1.25rem;
   font-weight: 400;
-}
-
-.goudsbloem-epiloog a {
-  text-decoration: underline;
-  text-underline-offset: 3px;
-}
-
-.goudsbloem-epiloog a:focus-visible {
-  outline: 2px solid var(--lens-link);
-  outline-offset: 4px;
 }
