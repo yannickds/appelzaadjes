@@ -496,7 +496,7 @@ footer {
 }
 
 /* ==========================================================
-   GOUDSBLOEM — VIDEO EN DIALOOG
+   GOUDSBLOEM — VIDEO EN DIALOOG EN EPILOOG
    ========================================================== */
 
 /* Video */
@@ -608,4 +608,28 @@ footer {
   .goudsbloem-beurt--mens {
     margin-inline-start: 1rem;
   }
+}
+
+/* Goudsbloem — epiloog */
+
+.goudsbloem-epiloog {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--lens-divider);
+}
+
+.goudsbloem-epiloog h2 {
+  margin-top: 0;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.goudsbloem-epiloog a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.goudsbloem-epiloog a:focus-visible {
+  outline: 2px solid var(--lens-link);
+  outline-offset: 4px;
 }
