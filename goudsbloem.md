@@ -268,4 +268,10 @@ Ik wil het van de daken schreeuwen, aan alle mensen vertellen hoe ze planten een
 
 </div>
 
-<!-- Je toekomstige epiloog kan hieronder komen. -->
+<div class="goudsbloem-epiloog" markdown="1">
+
+## Epiloog
+
+De dialoogvorm van deze tekst is mede geïnspireerd door [*Ishmael*](https://www.ishmael.org) van Daniel Quinn. Dat boek bestaat uit een gesprek tussen een mens en een gorilla. Het inspireerde Nate Hagens destijds om zijn werk voor miljardairs op Wall Street achter zich te laten. Met zijn podcast [*The Great Simplification*](https://www.thegreatsimplification.com) draagt Hagens nu wekelijks bij aan een gedeelde woordenschat om de complexe uitdagingen en onzekerheden van de toekomst beter te begrijpen en te bespreken.
+
+</div>
