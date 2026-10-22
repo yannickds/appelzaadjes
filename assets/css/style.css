@@ -494,3 +494,118 @@ footer {
     animation: none;
   }
 }
+
+/* ==========================================================
+   GOUDSBLOEM — VIDEO EN DIALOOG
+   ========================================================== */
+
+/* Video */
+
+.goudsbloem-video {
+  width: 100%;
+  margin: 0 auto 3rem;
+}
+
+.goudsbloem-video-frame {
+  aspect-ratio: 16 / 9;
+}
+
+.goudsbloem-video-frame iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.goudsbloem-video-caption {
+  margin: 0.75rem 0 0;
+  color: var(--lens-secondary);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* Introductie */
+
+.goudsbloem-intro {
+  margin: 0 0 2rem;
+  color: var(--lens-secondary);
+  font-size: 0.95rem;
+}
+
+/* Doorlopende dialoog */
+
+.goudsbloem-dialoog {
+  margin: 0 0 4rem;
+  font-size: 1rem;
+  line-height: 1.85;
+}
+
+.goudsbloem-beurt {
+  position: relative;
+  margin: 0 0 1.5rem;
+  overflow-wrap: anywhere;
+}
+
+/* Goudsbloem: zachte achtergrond en een verticale lijn */
+
+.goudsbloem-beurt--bloem {
+  padding: 1.25rem 1.5rem;
+  background-color: var(--lens-surface);
+  border-inline-start: 3px solid var(--lens-link);
+  border-radius: 0 6px 6px 0;
+}
+
+/* Mens: open tekstvlak met een kleine inspringing */
+
+.goudsbloem-beurt--mens {
+  margin-inline-start: 1.5rem;
+  padding: 0.5rem 0;
+}
+
+/* Sprekersnamen bij de eerste twee beurten */
+
+.goudsbloem-spreker {
+  display: block;
+  margin-bottom: 0.6rem;
+  color: var(--lens-text);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+/* Latere namen: leesbaar voor schermlezers, visueel verborgen */
+
+.goudsbloem-spreker--verborgen {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Witruimte tussen alinea's binnen één spreekbeurt */
+
+.goudsbloem-beurt p {
+  margin: 0 0 1rem;
+}
+
+.goudsbloem-beurt p:last-child {
+  margin-bottom: 0;
+}
+
+/* Kleine schermen */
+
+@media (max-width: 600px) {
+  .goudsbloem-beurt--bloem {
+    padding: 1rem;
+  }
+
+  .goudsbloem-beurt--mens {
+    margin-inline-start: 1rem;
+  }
+}
