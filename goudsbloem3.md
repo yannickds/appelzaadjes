@@ -828,12 +828,8 @@ Dan zijn we nog niet uitgepraat.
 
 <div class="goudsbloem-epiloog" markdown="1">
 
-## Epiloog
+## Over de dialoog
 
-De dialoogvorm van deze tekst is mede geïnspireerd door *Ishmael* van Daniel Quinn, waarin een mens en een gorilla met elkaar spreken.
-
-Goudsbloem wil aandacht geven aan begeleide plantenverplaatsing en aan de afwegingen die eraan voorafgaan. Wie een concreet initiatief overweegt, heeft meer nodig dan dit gesprek: kennis van de soort en de plek, betrokkenheid van de mensen die de gevolgen dragen en deskundige begeleiding.
-
-De goudsbloem spreekt hier als literair personage. Haar stem is een menselijke verbeelding van betrokkenheid bij planten. Wat planten nodig hebben en wat een ingreep teweegbrengt, moeten we blijven onderzoeken.
+De dialoogvorm van deze tekst is mede geïnspireerd door [*Ishmael*](https://www.ishmael.org) van Daniel Quinn. Dat boek bestaat uit een gesprek tussen een mens en een gorilla. Hier neemt een goudsbloem het woord.
 
 </div>
