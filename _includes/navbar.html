@@ -91,6 +91,15 @@
     {% endunless %}
   </ul>
 
+   {% unless page.lang == 'en' %}
+    <li>
+      <a href="{{ '/goudsbloem.html' | relative_url }}">
+        goudsbloem
+      </a>
+    </li>
+    {% endunless %}
+  </ul>
+
   {% if page.translation_url %}
   <a
     class="site-language"
