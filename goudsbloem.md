@@ -618,8 +618,8 @@ De vernietiging blijft lelijk. Tegelijk kunnen mensen, ook bij verlies en onzeke
 
 <div class="goudsbloem-epiloog" markdown="1">
 
-## Epiloog
+## Over de dialoog
 
-De dialoogvorm van deze tekst is mede geïnspireerd door [*Ishmael*](https://www.ishmael.org) van Daniel Quinn. Dat boek bestaat uit een gesprek tussen een mens en een gorilla. Het inspireerde Nate Hagens destijds om zijn werk voor miljardairs op Wall Street achter zich te laten. Met zijn podcast [*The Great Simplification*](https://www.thegreatsimplification.com) draagt Hagens nu wekelijks bij aan een gedeelde woordenschat om de complexe uitdagingen en onzekerheden van de toekomst beter te begrijpen en te bespreken.
+De dialoogvorm van deze tekst is mede geïnspireerd door [*Ishmael*](https://www.ishmael.org) van Daniel Quinn. Dat boek bestaat uit een gesprek tussen een mens en een gorilla. Hier neemt een goudsbloem het woord.
 
 </div>
