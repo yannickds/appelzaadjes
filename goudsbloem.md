@@ -33,7 +33,7 @@ translation_url: /en/
 
 <span class="goudsbloem-spreker">Goudsbloem</span>
 
-Goudsbloem is een droom van mezelf om meer kenbaarheid te geven aan assisted migration en aanverwante initiatieven.
+Goudsbloem is een droom van mij. Met dit project wil ik assisted migration en de mensen en initiatieven die ermee bezig zijn meer bekendheid geven.
 
 </div>
 
@@ -41,7 +41,7 @@ Goudsbloem is een droom van mezelf om meer kenbaarheid te geven aan assisted mig
 
 <span class="goudsbloem-spreker">Mens</span>
 
-Jij bent een goudsbloem die droomt van zichzelf? Daar snap ik niets van.
+Een droom van jou? Wie ben jij dan?
 
 </div>
 
@@ -49,7 +49,7 @@ Jij bent een goudsbloem die droomt van zichzelf? Daar snap ik niets van.
 
 <span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Goudsbloem</span>
 
-Ja, dit project is een droom van mezelf. Ik ben een goudsbloem! Als je nog vragen hebt, probeer ik ze duidelijk te verwoorden. We kunnen samen in gesprek gaan.
+Ik ben een goudsbloem.
 
 </div>
 
@@ -57,7 +57,7 @@ Ja, dit project is een droom van mezelf. Ik ben een goudsbloem! Als je nog vrage
 
 <span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Mens</span>
 
-Dat is speciaal, een goudsbloem die met me spreekt. Anderen gaan me voor gek verklaren als ik het hen vertel.
+Dat is speciaal, een goudsbloem die met me spreekt. Anderen gaan me voor gek verklaren als ik het hun vertel.
 
 </div>
 
@@ -65,7 +65,7 @@ Dat is speciaal, een goudsbloem die met me spreekt. Anderen gaan me voor gek ver
 
 <span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Goudsbloem</span>
 
-Dat is begrijpelijk. In vele andere culturen is praten met en luisteren naar planten en dieren normaal. In deze cultuur helemaal niet. Misschien is deze cultuur dan gek, en niet jij.
+Je vindt het ongewoon om met een plant te spreken?
 
 </div>
 
@@ -73,7 +73,7 @@ Dat is begrijpelijk. In vele andere culturen is praten met en luisteren naar pla
 
 <span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Mens</span>
 
-Dat klinkt als een andere manier van denken dan ik gewoon ben. Alleszins kan ik de gedachte dat ik niet gek ben wanneer ik met je praat wel waarderen. Je vertelde over assisted migration. Wat is dat precies?
+Ja. Ik ben het in ieder geval niet gewend.
 
 </div>
 
@@ -81,7 +81,7 @@ Dat klinkt als een andere manier van denken dan ik gewoon ben. Alleszins kan ik 
 
 <span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Goudsbloem</span>
 
-Assisted migration is het door mensen verplaatsen van soorten of populaties naar nieuwe gebieden. Anders gezegd zijn het mensen die planten helpen met migreren.
+Dan kunnen we hier beginnen. Jij stelt vragen en ik probeer ze duidelijk te beantwoorden.
 
 </div>
 
@@ -89,7 +89,7 @@ Assisted migration is het door mensen verplaatsen van soorten of populaties naar
 
 <span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Mens</span>
 
-Waarom zouden mensen zich daar mee bezig houden? Er zo vaak gesproken over mensen die migreren, maar planten die migreren dat is nieuw voor me.
+Goed. Je vertelde over assisted migration. Wat is dat precies?
 
 </div>
 
@@ -97,13 +97,9 @@ Waarom zouden mensen zich daar mee bezig houden? Er zo vaak gesproken over mense
 
 <span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Goudsbloem</span>
 
-Om die vraag te beantwoorden is enige duiding over klimaatverandering gepast. Klimaatveranderingen zijn zo oud als de straat. De Aarde heeft er al vele gekend.
+Assisted migration betekent dat mensen soorten of populaties doelgericht verplaatsen om ze te helpen omgaan met klimaatverandering. Dat kan binnen hun bestaande verspreidingsgebied of daarbuiten.
 
-De huidige klimaatverandering gebeurt met ongezien hoge snelheid, en die hoge snelheid is gevaarlijk. Je kan dat vergelijken met autorijden. De snelheid van de auto bepaalt voor een groot deel hoe gevaarlijk het is. Een botsing bij 15 km/u is minder gevaarlijk dan een botsing bij 150 km/u.
-
-Het is niet de verplaatsing (verandering van locatie) van de auto die gevaarlijk is, maar een hoge snelheid van die verplaatsing die gevaarlijk is. Zo is ook verandering van het klimaat niet per se gevaarlijk, tenzij die verandering gebeurt in hoge snelheid, wat helaas het geval is.
-
-Het is niet alleen gevaarlijk voor mensen maar ook voor het meer-dan-menselijk leven, zoals bijvoorbeeld planten.
+In dit gesprek hebben we het over planten. Mensen proberen planten te helpen om plekken te bereiken waar ze nu of in de toekomst kunnen leven.
 
 </div>
 
@@ -111,7 +107,7 @@ Het is niet alleen gevaarlijk voor mensen maar ook voor het meer-dan-menselijk l
 
 <span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Mens</span>
 
-Een snelle klimaatverandering is dus gevaarlijk voor planten? Vertel me meer!
+Waarom zouden planten daarvoor hulp nodig hebben?
 
 </div>
 
@@ -119,11 +115,11 @@ Een snelle klimaatverandering is dus gevaarlijk voor planten? Vertel me meer!
 
 <span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Goudsbloem</span>
 
-Iedere plant heeft bepaalde omstandigheden nodig om te kunnen leven. Het leefgebied van een plant is dat gebied waar de omstandigheden om te leven voor die plant gunstig zijn. De Sahara is geen leefgebied voor de eikenboom en de Zuidpool is geen leefgebied voor brandnetels.
+Omdat het klimaat verandert en daarmee ook de omstandigheden waarin planten leven.
 
-Deze omstandigheden worden bepaald door het type bodemtextuur, hoeveelheid neerslag, luchtvochtigheid, hoeveelheid zonlicht, enz... Wanneer het klimaat verandert, zullen ook veel van deze omstandigheden veranderen. Daardoor verschuiven de leefgebieden van planten.
+Iedere plant heeft bepaalde omstandigheden nodig om te groeien en zich voort te planten. Denk aan temperatuur, beschikbaar water, licht en bodem. Ook relaties met andere organismen zijn belangrijk, zoals schimmels bij de wortels of insecten die bloemen bestuiven.
 
-Zodra er te hard of te lang wordt afgeweken van de ideale omstandigheden en het leefgebied ver verschuift, hebben planten net zoals mensen en andere dieren twee mogelijkheden: sterven of migreren.
+Als die omstandigheden veranderen, kan een plek minder geschikt worden. Andere plekken kunnen juist geschikter worden.
 
 </div>
 
@@ -131,7 +127,7 @@ Zodra er te hard of te lang wordt afgeweken van de ideale omstandigheden en het 
 
 <span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Mens</span>
 
-Planten zitten vast in de grond met hun wortels en kunnen toch niet migreren?
+Maar het klimaat is toch altijd al veranderd?
 
 </div>
 
@@ -139,18 +135,7 @@ Planten zitten vast in de grond met hun wortels en kunnen toch niet migreren?
 
 <span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Goudsbloem</span>
 
-Dat klopt. Planten zijn sessiel, wat betekent dat ze zich niet kunnen verplaatsen en hun hele leven op een plek doorbrengen. De zaden van een plant kunnen wel uitwaaieren en elders wortel schieten.
-
-Op die manier verplaatst een plant zich, van ouder tot kind. Niet als individu, wel als soort.
-Migratie bij planten gebeurt over generaties heen.
-
-Er is variatie in de snelheid waarmee planten kunnen migreren, afhankelijk van de leeftijd waarop een plant voor het eerst zaad produceert en de afstand dat het zaad kan overbruggen vanaf ouderplant.
-
-Zo kunnen de zaden van een paardenbloem kilometers ver terechtkomen via de wind. Bij een eikenboom is die afstand korter. Eikels vallen recht naar beneden. Gelukkig zal de de gaai tot enkele tientallen of honderden meters verderop een eikel opbergen/planten.
-
-Een paardenbloem kan meerdere generaties per jaar doorlopen. De eik zal meerdere jaren oud zijn vooraleer de eerste eikel tevoorschijn komt.
-
-Zowel de leeftijd waarop planten voor het eerst zaad produceren als de afstand dat het zaad kan afleggen bepaalt hoe snel een soort kan migreren. Een eikenboom zal dus veel trager migreren dan een paardenbloem. Over het algemeen zullen bomen veel trager migreren dan andere plantsoorten.
+Ja. Voor planten zijn zowel de omvang als de snelheid van die verandering belangrijk. Als omstandigheden snel veranderen, is er minder tijd om zich aan te passen of nieuwe groeiplaatsen te bereiken.
 
 </div>
 
@@ -158,7 +143,7 @@ Zowel de leeftijd waarop planten voor het eerst zaad produceren als de afstand d
 
 <span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Mens</span>
 
-Ik weet niet of ik je nog kan volgen. Eerst sprak je over de snelheid van klimaatverandering en nu spreek je plots over de snelheid waarmee planten migreren. Wat heeft dat met mekaar te maken?
+Planten zitten met hun wortels in de grond. Hoe bereiken ze dan een andere plek?
 
 </div>
 
@@ -166,11 +151,9 @@ Ik weet niet of ik je nog kan volgen. Eerst sprak je over de snelheid van klimaa
 
 <span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Goudsbloem</span>
 
-Sterk opgemerkt en sorry voor de verwarring.
+Een gewortelde plant blijft meestal op dezelfde plek. Maar haar zaden kunnen elders terechtkomen en daar uitgroeien.
 
-Klimaatverandering verandert het leefgebied van planten en planten kunnen veranderen van leefgebied van ouder op kind. Hier komt de crux. Als leefgebieden sneller veranderen dan dat planten kunnen migreren richting gunstig leefgebied, dan zal de plant uitsterven.
-
-En daar kan jij en je medemensen een handje helpen, door het migratieproces te versnellen. Dat is precies waar assisted migration voor staat. Mensen kunnen doelgericht zaden verzamelen en bedachtzaam verspreiden op een locatie honderden kilometers verderop. Als ze ervoor kiezen natuurlijk.
+Zo kan het verspreidingsgebied van een soort over opeenvolgende generaties verschuiven. De ouderplant blijft staan, terwijl nakomelingen op andere plekken groeien.
 
 </div>
 
@@ -178,7 +161,7 @@ En daar kan jij en je medemensen een handje helpen, door het migratieproces te v
 
 <span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Mens</span>
 
-Als mensen er voor kiezen, daar neem je me de woorden in de mond. Waarom zou ik me daar mee bezig houden? Er is al zoveel ellende in de mensenwereld, waarom zou ik me bezighouden om planten te helpen?
+Dus een plant verhuist niet zelf, maar haar nakomelingen komen ergens anders terecht?
 
 </div>
 
@@ -186,7 +169,9 @@ Als mensen er voor kiezen, daar neem je me de woorden in de mond. Waarom zou ik 
 
 <span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Goudsbloem</span>
 
-Alleszins niet om succesvol te zijn. Niemand van ons zal nog leven tegen dat de klimaatverandering voorbij is. Niemand van ons zal weten welke soorten het overleven. Niemand van ons zal weten of inspanningen rond assisted migratie enige vruchten zullen afwerpen. Zelfs al zou je je hele leven eraan wijden, je zal nooit weten of je succesvol bent.
+Precies. Bij sommige planten kunnen ook delen van de plant zich verspreiden en elders verder groeien.
+
+Hoe snel een soort nieuwe plekken bereikt, hangt onder meer af van de verspreiding van zaden en van de leeftijd waarop nieuwe planten zelf zaden produceren. Bovendien moeten die zaden op een geschikte plek terechtkomen, ontkiemen en uitgroeien.
 
 </div>
 
@@ -194,7 +179,7 @@ Alleszins niet om succesvol te zijn. Niemand van ons zal nog leven tegen dat de 
 
 <span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Mens</span>
 
-Waarom zou ik dan een poging wagen? Wat voor nut heeft het?
+En wat heeft die snelheid met klimaatverandering te maken?
 
 </div>
 
@@ -202,11 +187,9 @@ Waarom zou ik dan een poging wagen? Wat voor nut heeft het?
 
 <span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Goudsbloem</span>
 
-Ik vermoed dat het weinig nut heeft. Voor sommige mensen kan het wel zingeving bieden.
+Geschikte omstandigheden kunnen sneller verschuiven dan een plantensoort nieuwe plekken kan bereiken.
 
-Planten kunnen zonlicht chemisch verankeren. Fotosynthese heet dat. Mensen en andere dieren kunnen dat niet. Omdat mensen geen zonlicht kunnen eten, zijn mensen voor hun energie afhankelijk van planten die zonlicht transformeren tot suikers. Dat kunnen mensen wel eten.
-
-Via fotosynthese zorgen planten er voor dat mensen toegang hebben tot voedsel en zuurstof. Planten vragen daar geen wederdienst voor. Deze periode van grote verandering kan assisted migration wel een manier zijn om dankbaarheid uit te drukken naar planten toe.
+Stel dat het op een bepaalde plek te warm of te droog wordt. Verderop zijn er nog geschikte omstandigheden, maar de zaden bereiken die plek niet. Of er liggen wegen, akkers en bebouwing tussen die de verspreiding bemoeilijken.
 
 </div>
 
@@ -214,7 +197,7 @@ Via fotosynthese zorgen planten er voor dat mensen toegang hebben tot voedsel en
 
 <span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Mens</span>
 
-Ok dat houdt steek. Iedereen kan dus zelf kiezen of die wederkerigheid naar planten toe belangrijk vindt. Ik ben halvelings overtuigd. Ik snap nog niet waarom jij als goudsbloem me die boodschap verkondigt. Waarom jij?
+Dan verdwijnt die plant?
 
 </div>
 
@@ -222,9 +205,11 @@ Ok dat houdt steek. Iedereen kan dus zelf kiezen of die wederkerigheid naar plan
 
 <span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Goudsbloem</span>
 
-Dat komt door de geschiedenis van mij en mijn familie. Ik ben een nakomeling van goudsbloemen die leefden Lutzerath.
+Dat kan, maar het is geen automatische uitkomst.
 
-Lutzerath is of was een klein dorp in Duitsland. Het dorp is ten prooi gevallen aan mijnbouw. Intussen is het helemaal weggegraven. Daar waar het dorp ooit was, is nu een groot gapend gat. Niets dan leegte.
+Planten kunnen binnen bepaalde grenzen reageren op veranderende omstandigheden. Over generaties kan ook aanpassing plaatsvinden. Sommige plekken blijven langer geschikt dan andere.
+
+Als die mogelijkheden tekortschieten en nieuwe geschikte plekken onbereikbaar blijven, kan een plaatselijke populatie verdwijnen. Als uiteindelijk alle populaties verdwijnen, sterft de soort uit.
 
 </div>
 
@@ -232,7 +217,7 @@ Lutzerath is of was een klein dorp in Duitsland. Het dorp is ten prooi gevallen 
 
 <span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Mens</span>
 
-Dat lijkt me best vervelend voor de mensen die er woonden.
+En daar willen mensen met assisted migration iets aan doen?
 
 </div>
 
@@ -240,9 +225,9 @@ Dat lijkt me best vervelend voor de mensen die er woonden.
 
 <span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Goudsbloem</span>
 
-Niet allenen mensen, ook het meer-dan-menselijke-leven is hun leefgebied kwijt. Net voor het dorp werd weggegraven, hebben enkele mensen wat zaden van lokale goudsbloemen verzameld en uitgedeeld, zodat ze hopelijk elders een nieuwe thuis konden vinden.
+Ja. Ze proberen de afstand te overbruggen die planten op eigen kracht niet tijdig kunnen afleggen. Bijvoorbeeld door zaden of jonge planten naar een zorgvuldig gekozen plek te brengen.
 
-Ik ben een nakomeling van die bewuste goudsbloemen. Ik ben een levende herinnering voor mijn voorouderlijke gronden alsook voor andere plekken en plaatsen die vernietigd zijn.
+Daarmee is nog niet gezegd dat die planten daar zullen overleven, of dat hun aanwezigheid voor andere soorten gunstig is.
 
 </div>
 
@@ -250,7 +235,7 @@ Ik ben een nakomeling van die bewuste goudsbloemen. Ik ben een levende herinneri
 
 <span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Mens</span>
 
-Is het dan de bedoeling om over de hele wereld goudsbloemen te verspreiden?
+Hoe weet je dat die planten op hun nieuwe plek geen schade veroorzaken?
 
 </div>
 
@@ -258,11 +243,373 @@ Is het dan de bedoeling om over de hele wereld goudsbloemen te verspreiden?
 
 <span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Goudsbloem</span>
 
-Niet echt, laat me even wat duidelijkheid scheppen.
+Dat weet je niet zomaar. Een plek waar een plant kan groeien, is daarom nog geen geschikte plek om haar te introduceren.
 
-Als goudsbloem wil ik symbool staan voor alle plantsoorten die hulp nodig hebben om te migreren naar een nieuw leefgebied. Ik wil dienen als ambassadeur voor alle plantsoorten die een veilige plek zoeken om een onzekere toekomst te overleven.
+Er leven al andere planten, dieren, schimmels en andere organismen. Een nieuwkomer kan hun onderlinge relaties veranderen, soorten verdringen of ziekteverwekkers meebrengen.
 
-Ik wil het van de daken schreeuwen, aan alle mensen vertellen hoe ze planten een handje kunnen helpen in deze donkere tijden. We zullen elkaar meer dan ooit nodig hebben. Maar ook in het donker kunnen zulke mooie dingen ontstaan. Of herinner je je dat niet meer?
+</div>
+
+<div class="goudsbloem-beurt goudsbloem-beurt--mens" markdown="1">
+
+<span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Mens</span>
+
+Dus door een plant te helpen, kan ik andere soorten schaden?
+
+</div>
+
+<div class="goudsbloem-beurt goudsbloem-beurt--bloem" markdown="1">
+
+<span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Goudsbloem</span>
+
+Ja. Daarom vraagt assisted migration meer dan zaden verzamelen en ergens uitstrooien.
+
+Je moet onderzoeken welke plant je verplaatst, waar ze vandaan komt, welke omstandigheden ze nodig heeft en wat haar aanwezigheid op de nieuwe plek kan betekenen. Ook de gevolgen van het verzamelen voor de oorspronkelijke populatie tellen mee.
+
+Dat vraagt samenwerking met mensen die de soort en het ontvangende ecosysteem kennen. Hun kennis van de plek en van eerdere ingrepen is belangrijk.
+
+</div>
+
+<div class="goudsbloem-beurt goudsbloem-beurt--mens" markdown="1">
+
+<span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Mens</span>
+
+Moet je ook onderzoeken of verplaatsen wel nodig is?
+
+</div>
+
+<div class="goudsbloem-beurt goudsbloem-beurt--bloem" markdown="1">
+
+<span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Goudsbloem</span>
+
+Ja. Soms zijn andere maatregelen geschikter, zoals bestaand leefgebied beschermen of verbindingen tussen leefgebieden herstellen.
+
+Je moet de mogelijke gevolgen van verplaatsen afwegen tegen de gevolgen van niet verplaatsen. Soms is de uitkomst dat een verplaatsing onvoldoende verantwoord kan worden.
+
+</div>
+
+<div class="goudsbloem-beurt goudsbloem-beurt--mens" markdown="1">
+
+<span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Mens</span>
+
+Kunnen deskundigen garanderen dat het goed afloopt?
+
+</div>
+
+<div class="goudsbloem-beurt goudsbloem-beurt--bloem" markdown="1">
+
+<span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Goudsbloem</span>
+
+Nee. Onderzoek helpt om risico’s te beoordelen, maar maakt niet alle gevolgen voorspelbaar.
+
+Daarom moet vooraf duidelijk zijn wat men wil bereiken, wat men gaat opvolgen en wanneer bijsturen nodig is. Ook moet worden onderzocht of ingrijpen nog mogelijk is als er ongewenste gevolgen optreden.
+
+</div>
+
+<div class="goudsbloem-beurt goudsbloem-beurt--mens" markdown="1">
+
+<span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Mens</span>
+
+Dat vraagt meer voorzichtigheid dan ik aanvankelijk dacht.
+
+</div>
+
+<div class="goudsbloem-beurt goudsbloem-beurt--bloem" markdown="1">
+
+<span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Goudsbloem</span>
+
+Ja. Goede bedoelingen alleen zijn onvoldoende.
+
+In China werden vanaf 1958 massaal mussen gedood omdat ze graan aten. Maar die mussen aten ook insecten die gewassen beschadigden. Wetenschappers hadden daarvoor gewaarschuwd.
+
+Het verdwijnen van de mussen droeg bij aan oogstverliezen en verergerde de hongersnood. Die hongersnood had meerdere oorzaken; de campagne tegen de mussen was er één van.
+
+</div>
+
+<div class="goudsbloem-beurt goudsbloem-beurt--mens" markdown="1">
+
+<span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Mens</span>
+
+Men keek naar het graan dat ze opaten, maar onvoldoende naar de insecten die ze aten?
+
+</div>
+
+<div class="goudsbloem-beurt goudsbloem-beurt--bloem" markdown="1">
+
+<span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Goudsbloem</span>
+
+Precies. Een soort maakt deel uit van relaties. Wie ingrijpt, moet proberen die relaties te begrijpen en ook rekening houden met wat nog onbekend is.
+
+</div>
+
+<div class="goudsbloem-beurt goudsbloem-beurt--mens" markdown="1">
+
+<span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Mens</span>
+
+Ik begrijp nu beter waarom voorzichtigheid nodig is. Maar waarom zou ik me hiermee bezighouden? Er is al zoveel ellende in de mensenwereld.
+
+</div>
+
+<div class="goudsbloem-beurt goudsbloem-beurt--bloem" markdown="1">
+
+<span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Goudsbloem</span>
+
+Zorg voor planten kan voor jou betekenis hebben. Of dat zo is, kan ik niet voor je bepalen.
+
+</div>
+
+<div class="goudsbloem-beurt goudsbloem-beurt--mens" markdown="1">
+
+<span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Mens</span>
+
+Waarom zou het betekenis kunnen hebben?
+
+</div>
+
+<div class="goudsbloem-beurt goudsbloem-beurt--bloem" markdown="1">
+
+<span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Goudsbloem</span>
+
+Planten leggen via fotosynthese energie uit zonlicht vast in suikers. Mensen en andere dieren zijn voor hun voedsel direct of indirect afhankelijk van die energie. Fotosynthese door planten, algen en bepaalde bacteriën levert ook de zuurstof die we inademen.
+
+Misschien wil je iets terugdoen voor het leven waarvan je afhankelijk bent.
+
+Assisted migration kan daar een vorm van zijn, als de ecologische afweging ervoor pleit. Bestaande planten en hun leefgebieden beschermen kan dat ook zijn.
+
+</div>
+
+<div class="goudsbloem-beurt goudsbloem-beurt--mens" markdown="1">
+
+<span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Mens</span>
+
+Maar hoe weet ik of mijn inspanningen iets opleveren?
+
+</div>
+
+<div class="goudsbloem-beurt goudsbloem-beurt--bloem" markdown="1">
+
+<span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Goudsbloem</span>
+
+Voor een deel kan je dat onderzoeken. Je kan opvolgen of zaden ontkiemen, planten overleven en zich voortplanten. Je kan onderzoeken wat hun aanwezigheid betekent voor andere soorten.
+
+Maar een gunstig resultaat in de eerste jaren garandeert geen gunstige uitkomst over honderd jaar. Omstandigheden veranderen, en sommige gevolgen worden pas later zichtbaar.
+
+Wat aanvankelijk geslaagd lijkt, kan op langere termijn alsnog mislukken of schade veroorzaken.
+
+</div>
+
+<div class="goudsbloem-beurt goudsbloem-beurt--mens" markdown="1">
+
+<span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Mens</span>
+
+Dus wanneer noem je iets een succes?
+
+</div>
+
+<div class="goudsbloem-beurt goudsbloem-beurt--bloem" markdown="1">
+
+<span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Goudsbloem</span>
+
+Door precies te zeggen wat er is vastgesteld en over welke periode.
+
+Dat planten na vijf jaar nog leven, betekent dat ze die vijf jaar hebben overleefd. Het bewijst niet dat ze over honderd jaar nog aanwezig zullen zijn of dat alle gevolgen voor andere soorten bekend zijn.
+
+Welke soorten over honderdduizenden jaren nog zullen bestaan, zullen jij en ik niet meemaken. Daarom moeten we onderscheid maken tussen wat we nu kunnen vaststellen en wat we over de verre toekomst niet kunnen weten.
+
+</div>
+
+<div class="goudsbloem-beurt goudsbloem-beurt--mens" markdown="1">
+
+<span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Mens</span>
+
+Dus successen vieren, maar met nederigheid?
+
+</div>
+
+<div class="goudsbloem-beurt goudsbloem-beurt--bloem" markdown="1">
+
+<span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Goudsbloem</span>
+
+Ja. Erkennen wat lukt, blijven onderzoeken wat er gebeurt en bereid zijn je aanpak te veranderen.
+
+</div>
+
+<div class="goudsbloem-beurt goudsbloem-beurt--mens" markdown="1">
+
+<span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Mens</span>
+
+Ik begrijp beter waarom mensen zich ermee bezighouden. Maar waarom vertel jij me dit? Waarom een goudsbloem?
+
+</div>
+
+<div class="goudsbloem-beurt goudsbloem-beurt--bloem" markdown="1">
+
+<span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Goudsbloem</span>
+
+Vanwege mijn familiegeschiedenis. Ik ben een nakomeling van goudsbloemen die in Lützerath groeiden.
+
+Dat was een dorp in Duitsland dat is gesloopt voor de uitbreiding van een bruinkoolmijn. Mensen hebben daar goudsbloemzaden verzameld en meegenomen. Daardoor konden nakomelingen van die planten elders groeien.
+
+</div>
+
+<div class="goudsbloem-beurt goudsbloem-beurt--mens" markdown="1">
+
+<span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Mens</span>
+
+Dus jouw verhaal is een voorbeeld van assisted migration?
+
+</div>
+
+<div class="goudsbloem-beurt goudsbloem-beurt--bloem" markdown="1">
+
+<span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Goudsbloem</span>
+
+Niet automatisch. De aanleiding om die zaden mee te nemen was de vernietiging van een plek door mijnbouw. Dat is iets anders dan planten verplaatsen om ze te helpen omgaan met klimaatverandering.
+
+Mijn geschiedenis verbindt me wel met het verlies van leefgebied. Vanuit die geschiedenis wil ik aandacht vragen voor assisted migration en voor de mensen en initiatieven die zorgvuldig onderzoeken hoe ze planten kunnen helpen.
+
+</div>
+
+<div class="goudsbloem-beurt goudsbloem-beurt--mens" markdown="1">
+
+<span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Mens</span>
+
+Is het dan de bedoeling om overal goudsbloemen te verspreiden?
+
+</div>
+
+<div class="goudsbloem-beurt goudsbloem-beurt--bloem" markdown="1">
+
+<span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Goudsbloem</span>
+
+Nee. Ik wil als goudsbloem symbool staan voor planten die hun leefgebied verliezen. Dat betekent niet dat goudsbloemen overal thuishoren of dat iedere bedreigde plant verplaatst moet worden.
+
+</div>
+
+<div class="goudsbloem-beurt goudsbloem-beurt--mens" markdown="1">
+
+<span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Mens</span>
+
+Je groeit nu ergens anders. Wat blijft er dan verloren?
+
+</div>
+
+<div class="goudsbloem-beurt goudsbloem-beurt--bloem" markdown="1">
+
+<span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Goudsbloem</span>
+
+De plek waar mijn voorouders groeiden. Dat hun nakomelingen elders leven, brengt die plek niet terug.
+
+Het verlies betreft ook de andere planten en dieren die daar leefden, de bodem en de relaties die er bestonden. En de mensen die er woonden en met die plek verbonden waren.
+
+</div>
+
+<div class="goudsbloem-beurt goudsbloem-beurt--mens" markdown="1">
+
+<span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Mens</span>
+
+Dus jouw voortbestaan maakt het verlies niet ongedaan?
+
+</div>
+
+<div class="goudsbloem-beurt goudsbloem-beurt--bloem" markdown="1">
+
+<span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Goudsbloem</span>
+
+Nee.
+
+Mijn verhaal staat ook voor andere plekken die verdwenen zijn of bedreigd worden. Door mijnbouw, ontbossing, bebouwing en andere ingrepen verdwijnen leefgebieden. Klimaatverandering verandert bovendien de omstandigheden waarin soorten kunnen leven.
+
+Dat verlies gaat verder terwijl wij hier spreken.
+
+</div>
+
+<div class="goudsbloem-beurt goudsbloem-beurt--mens" markdown="1">
+
+<span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Mens</span>
+
+Ik merk dat ik daar verdrietig van word. En machteloos. Er verdwijnt zoveel dat ik niet kan tegenhouden.
+
+</div>
+
+<div class="goudsbloem-beurt goudsbloem-beurt--bloem" markdown="1">
+
+<span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Goudsbloem</span>
+
+Dat verdriet hoeft niet meteen opgelost te worden. Huilen, boosheid of woorden geven aan het verlies kunnen manieren zijn om erbij stil te staan.
+
+Wat in Lützerath verdwenen is, kunnen we niet terughalen. Elders zijn er nog plekken die beschermd kunnen worden. Dat maakt het verlies hier niet kleiner.
+
+</div>
+
+<div class="goudsbloem-beurt goudsbloem-beurt--mens" markdown="1">
+
+<span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Mens</span>
+
+Dus ik kan verdriet hebben om wat verdwenen is en tegelijk zorgen voor wat er nog is?
+
+</div>
+
+<div class="goudsbloem-beurt goudsbloem-beurt--bloem" markdown="1">
+
+<span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Goudsbloem</span>
+
+Ja. En je kan dat verdriet met andere mensen delen.
+
+De vernietiging vind ik lelijk. Maar dat mensen aanwezig blijven bij wat verloren gaat, hun gevoelens daarover toelaten en die met elkaar delen, vind ik mooi.
+
+</div>
+
+<div class="goudsbloem-beurt goudsbloem-beurt--mens" markdown="1">
+
+<span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Mens</span>
+
+Dat maakt de toekomst nog niet minder onzeker.
+
+</div>
+
+<div class="goudsbloem-beurt goudsbloem-beurt--bloem" markdown="1">
+
+<span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Goudsbloem</span>
+
+Nee. Ik zeg wel eens dat we donkere tijden tegemoetgaan.
+
+Met donkerte bedoel ik de onzekerheid over wat er komt. Maar donkerte heeft voor mij ook een andere betekenis.
+
+</div>
+
+<div class="goudsbloem-beurt goudsbloem-beurt--mens" markdown="1">
+
+<span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Mens</span>
+
+Wat wil je daarmee zeggen?
+
+</div>
+
+<div class="goudsbloem-beurt goudsbloem-beurt--bloem" markdown="1">
+
+<span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Goudsbloem</span>
+
+Ook in het donker kunnen mooie dingen ontstaan.
+
+</div>
+
+<div class="goudsbloem-beurt goudsbloem-beurt--mens" markdown="1">
+
+<span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Mens</span>
+
+Mooie dingen in het donker?
+
+</div>
+
+<div class="goudsbloem-beurt goudsbloem-beurt--bloem" markdown="1">
+
+<span class="goudsbloem-spreker goudsbloem-spreker--verborgen">Goudsbloem</span>
+
+Ja. Sommige zaden ontkiemen onder de grond, in het donker. Jij ontwikkelde je voor je geboorte in de donkerte van een baarmoeder.
+
+Die beelden nemen de vernietiging en het verdriet niet weg.
+
+De vernietiging blijft lelijk. Tegelijk kunnen mensen, ook bij verlies en onzekerheid, proberen met compassie te handelen, elkaar te helpen, humor te delen en schoonheid te maken. Hoeveel ruimte daarvoor is, verschilt per persoon en per situatie.
 
 </div>
 
