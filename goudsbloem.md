@@ -24,7 +24,7 @@ translation_url: /en/
 </div>
 
 <p class="goudsbloem-intro">
-  Een gesprek tussen een goudsbloem en een mens.
+  Een gesprek tussen een goudsbloem en een mens.<br>
   Ongeveer 10 minuten leestijd.
 </p>
 
