@@ -25,6 +25,7 @@ translation_url: /en/
 
 <p class="goudsbloem-intro">
   Een gesprek tussen een goudsbloem en een mens.
+  Ongeveer 10 minuten leestijd.
 </p>
 
 <div class="goudsbloem-dialoog" markdown="1">
