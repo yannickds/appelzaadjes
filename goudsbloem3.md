@@ -25,7 +25,7 @@ translation_url: /en/
 
 ### Over dit gesprek
 
-Deze dialoog is mede geïnspireerd door [*Ishmael*](https://www.ishmael.org) van Daniel Quinn, waarin een mens en een gorilla met elkaar in gesprek gaan. Hier neemt een goudsbloem het woord. Ongeveer 10 minuten leestijd.
+Deze dialoog is mede geïnspireerd door [*Ishmael*](https://www.ishmael.org) van Daniel Quinn. In dit boek gaan een mens en een gorilla met elkaar in gesprek. Hier neemt een goudsbloem het woord. Ongeveer 10 minuten leestijd.
 
 <div class="goudsbloem-dialoog" markdown="1">
 
