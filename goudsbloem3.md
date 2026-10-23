@@ -23,10 +23,9 @@ translation_url: /en/
   </p>
 </div>
 
-<p class="goudsbloem-intro">
-  Een gesprek tussen een goudsbloem en een mens.<br>
-  Ongeveer 10 minuten leestijd.
-</p>
+### Over dit gesprek
+
+Deze dialoog is mede geïnspireerd door [*Ishmael*](https://www.ishmael.org) van Daniel Quinn, waarin een mens en een gorilla met elkaar in gesprek gaan. Hier neemt een goudsbloem het woord. Ongeveer 10 minuten leestijd.
 
 <div class="goudsbloem-dialoog" markdown="1">
 
@@ -823,13 +822,5 @@ Nu wil ik ook weten waar je bezwaar blijft maken.
 Dan zijn we nog niet uitgepraat.
 
 </div>
-
-</div>
-
-<div class="goudsbloem-epiloog" markdown="1">
-
-## Over de dialoog
-
-De dialoogvorm van deze tekst is mede geïnspireerd door [*Ishmael*](https://www.ishmael.org) van Daniel Quinn. Dat boek bestaat uit een gesprek tussen een mens en een gorilla. Hier neemt een goudsbloem het woord.
 
 </div>
