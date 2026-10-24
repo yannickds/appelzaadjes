@@ -25,3 +25,5 @@ How we look colours what we see. Grief has helped shape this website. But there 
 The chosen lenses are *10 first principles for healing*, which I discovered through [InterGifted](https://intergifted.com). They offer a way to correct my own [bias](https://buster.medium.com/cognitive-bias-cheat-sheet-55a472476b18) toward the negative.
 
 contact: yannickdestrycker@protonmail.com
+
+I’m still learning. Your honest feedback can help me grow.
