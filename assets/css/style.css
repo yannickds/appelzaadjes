@@ -553,6 +553,10 @@ footer {
 
 /* Introductie */
 
+.goudsbloem-intro-titel {
+  margin-top: 3rem;
+}
+
 .goudsbloem-intro {
   margin: 0 0 2rem;
   color: var(--lens-secondary);
