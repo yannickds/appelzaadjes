@@ -25,6 +25,8 @@ De gekozen lenzen zijn *10 first principles for healing* die ik leerde kennen vi
 
 contact: yannickdestrycker@protonmail.com
 
+Ik blijf leren. Jouw eerlijke feedback kan daarbij helpen.
+
 <!-- ... 
 
 ### Zaad als eenheid van het leven. Niet geld.
